@@ -1,0 +1,6 @@
+localization:
+  onscreens:
+    en-us: capricorn\localization\en-us.json
+
+journal:
+  - capricorn\journal\invitation.journal

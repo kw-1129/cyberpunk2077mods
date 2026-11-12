@@ -1,0 +1,3 @@
+# Session-local controls are mirrored by the CET companion. No vanilla flats.
+CapricornRelic.Enabled: true
+CapricornRelic.ShowPortrait: true

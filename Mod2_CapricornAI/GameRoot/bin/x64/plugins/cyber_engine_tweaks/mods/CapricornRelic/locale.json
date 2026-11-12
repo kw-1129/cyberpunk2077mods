@@ -1,0 +1,462 @@
+{
+  "Recall": {
+    "en-us": "Recall",
+    "zh-cn": "召回",
+    "zh-tw": "召回"
+  },
+  "Register garage": {
+    "en-us": "Register garage",
+    "zh-cn": "加入车库",
+    "zh-tw": "加入車庫"
+  },
+  "Remove entries": {
+    "en-us": "Remove entries",
+    "zh-cn": "移除车库条目",
+    "zh-tw": "移除車庫條目"
+  },
+  "Load a save first.": {
+    "en-us": "Load a save first.",
+    "zh-cn": "先加载存档。",
+    "zh-tw": "先加載存檔。"
+  },
+  "Unavailable": {
+    "en-us": "Unavailable",
+    "zh-cn": "暂不可用",
+    "zh-tw": "暫不可用"
+  },
+  "Scripts unavailable: check r6/logs/redscript_rCURRENT.log": {
+    "en-us": "Scripts unavailable: check r6/logs/redscript_rCURRENT.log",
+    "zh-cn": "脚本未就绪，请查看 r6/logs/redscript_rCURRENT.log。",
+    "zh-tw": "腳本未就緒，請查看 r6/logs/redscript_rCURRENT.log。"
+  },
+  "Error: ": {
+    "en-us": "Error: ",
+    "zh-cn": "错误：",
+    "zh-tw": "錯誤："
+  },
+  "请先安装 Mod1：魔蜥与奇美拉仓库。": {
+    "en-us": "Install Mod1_ChimeraCommands first.",
+    "zh-cn": "请先安装 Mod1：魔蜥与奇美拉仓库。",
+    "zh-tw": "請先安裝 Mod1：魔蜥與奇美拉倉庫。"
+  },
+  "Relic 互动已关闭。": {
+    "en-us": "Relic interactions are disabled.",
+    "zh-cn": "Relic 互动已关闭。",
+    "zh-tw": "Relic 互動已關閉。"
+  },
+  "奇美拉指令已执行。": {
+    "en-us": "Chimera command dispatched.",
+    "zh-cn": "奇美拉指令已执行。",
+    "zh-tw": "奇美拉指令已執行。"
+  },
+  "需要先安装 Mod1。": {
+    "en-us": "Install Mod1_ChimeraCommands first.",
+    "zh-cn": "需要先安装 Mod1。",
+    "zh-tw": "需要先安裝 Mod1。"
+  },
+  "部署请求已发送。": {
+    "en-us": "Deployment requested.",
+    "zh-cn": "部署请求已发送。",
+    "zh-tw": "部署請求已發送。"
+  },
+  "黑墙已上传到 ": {
+    "en-us": "Blackwall uploaded to ",
+    "zh-cn": "黑墙已上传到 ",
+    "zh-tw": "黑墻已上傳到 "
+  },
+  " 个附近敌对目标。": {
+    "en-us": " nearby hostile targets.",
+    "zh-cn": " 个附近敌对目标。",
+    "zh-tw": " 個附近敵對目標。"
+  },
+  "已放入摩羯接入仓。": {
+    "en-us": "Capricorn cyberdeck added.",
+    "zh-cn": "已放入摩羯接入仓。",
+    "zh-tw": "已放入摩羯接入倉。"
+  },
+  "指令暂时未完成，请查看面板诊断。": {
+    "en-us": "Command failed. Check the panel diagnostics.",
+    "zh-cn": "指令暂时未完成，请查看面板诊断。",
+    "zh-tw": "指令暫時未完成，請查看面板診斷。"
+  },
+  "离线模式": {
+    "en-us": "Offline mode",
+    "zh-cn": "离线模式",
+    "zh-tw": "離線模式"
+  },
+  "桥接器不可用": {
+    "en-us": "Bridge unavailable",
+    "zh-cn": "桥接器不可用",
+    "zh-tw": "橋接器不可用"
+  },
+  "等待 AI 回复…": {
+    "en-us": "Waiting for AI…",
+    "zh-cn": "等待 AI 回复…",
+    "zh-tw": "等待 AI 回復…"
+  },
+  "连接失败": {
+    "en-us": "Connection failed",
+    "zh-cn": "连接失败",
+    "zh-tw": "連接失敗"
+  },
+  "AI 已回复": {
+    "en-us": "AI replied",
+    "zh-cn": "AI 已回复",
+    "zh-tw": "AI 已回復"
+  },
+  "API 超时，可重试": {
+    "en-us": "API timed out. You can retry.",
+    "zh-cn": "API 超时，可重试",
+    "zh-tw": "API 超時，可重試"
+  },
+  "发送失败，请重试": {
+    "en-us": "Send failed. Please retry.",
+    "zh-cn": "发送失败，请重试",
+    "zh-tw": "發送失敗，請重試"
+  },
+  "摩羯 / CAPRICORN · RELIC": {
+    "en-us": "CAPRICORN | Relic",
+    "zh-cn": "摩羯 / CAPRICORN · RELIC",
+    "zh-tw": "摩羯 / CAPRICORN · RELIC"
+  },
+  "离线陪伴、自由黑客指令，以及可选 AI API。准星先对准目标，再点指令或按快捷键。": {
+    "en-us": "Offline companionship, direct hacking commands and optional AI chat. Aim at a target before selecting a command or pressing its hotkey.",
+    "zh-cn": "离线陪伴、自由黑客指令，以及可选 AI API。准星先对准目标，再点指令或按快捷键。",
+    "zh-tw": "離線陪伴、自由黑客指令，以及可選 AI API。準星先對準目標，再點指令或按快捷鍵。"
+  },
+  "打开简洁聊天窗口": {
+    "en-us": "Open compact chat",
+    "zh-cn": "打开简洁聊天窗口",
+    "zh-tw": "打開簡潔聊天窗口"
+  },
+  "按 CET 面板键关闭覆盖层后，聊天窗口会打开。": {
+    "en-us": "Close the CET overlay to open the chat window.",
+    "zh-cn": "按 CET 面板键关闭覆盖层后，聊天窗口会打开。",
+    "zh-tw": "按 CET 面板鍵關閉覆蓋層后，聊天窗口會打開。"
+  },
+  "启用额外互动": {
+    "en-us": "Enable extra interactions",
+    "zh-cn": "启用额外互动",
+    "zh-tw": "啟用額外互動"
+  },
+  "显示摩羯 HUD 立绘": {
+    "en-us": "Show Capricorn portrait",
+    "zh-cn": "显示摩羯 HUD 立绘",
+    "zh-tw": "顯示摩羯 HUD 立繪"
+  },
+  "离线情境互动": {
+    "en-us": "Offline contextual reactions",
+    "zh-cn": "离线情境互动",
+    "zh-tw": "離線情境互動"
+  },
+  "启用外部 AI API（需启动独立桥接器）": {
+    "en-us": "Enable AI API (requires the bridge)",
+    "zh-cn": "启用外部 AI API（需启动独立桥接器）",
+    "zh-tw": "啟用外部 AI API（需啟動獨立橋接器）"
+  },
+  "允许 AI 调用游戏指令": {
+    "en-us": "Allow AI game actions",
+    "zh-cn": "允许 AI 调用游戏指令",
+    "zh-tw": "允許 AI 調用游戲指令"
+  },
+  "消息": {
+    "en-us": "Message",
+    "zh-cn": "消息",
+    "zh-tw": "消息"
+  },
+  "等待 AI...": {
+    "en-us": "Waiting for AI…",
+    "zh-cn": "等待 AI...",
+    "zh-tw": "等待 AI..."
+  },
+  "发送": {
+    "en-us": "Send",
+    "zh-cn": "发送",
+    "zh-tw": "發送"
+  },
+  "离线聊聊": {
+    "en-us": "Offline chat",
+    "zh-cn": "离线聊聊",
+    "zh-tw": "離線聊聊"
+  },
+  "奇美拉协同（Mod1）": {
+    "en-us": "Chimera coordination (Mod1)",
+    "zh-cn": "奇美拉协同（Mod1）",
+    "zh-tw": "奇美拉協同（Mod1）"
+  },
+  "诊断：": {
+    "en-us": "Diagnostics: ",
+    "zh-cn": "诊断：",
+    "zh-tw": "診斷："
+  },
+  "API 设置：桌面模组包里的“启动AI桥接.cmd”。聊天与简单指令默认离线可用。原版 Capricorn 的接入仓、台词、语音和任务仍由原模组提供。": {
+    "en-us": "API setup: StartAIBridge.cmd in the mod package. Offline chat and commands work without it. The original Capricorn mod provides its deck, dialogue, voices and quest.",
+    "zh-cn": "API 设置：模组包中的 StartAIBridge.cmd。默认离线可用；原 Capricorn 内容由基础模组提供。",
+    "zh-tw": "API 設置：模組包中的 StartAIBridge.cmd。默認離線可用；原 Capricorn 內容由基礎模組提供。"
+  },
+  "V: ": {
+    "en-us": "V: ",
+    "zh-cn": "V: ",
+    "zh-tw": "V: "
+  },
+  "[执行] ": {
+    "en-us": "[Action] ",
+    "zh-cn": "[执行] ",
+    "zh-tw": "[執行] "
+  },
+  "摩羯: ": {
+    "en-us": "Capri: ",
+    "zh-cn": "摩羯: ",
+    "zh-tw": "摩羯: "
+  },
+  "短路": {
+    "en-us": "Short circuit",
+    "zh-cn": "短路",
+    "zh-tw": "短路"
+  },
+  "过热": {
+    "en-us": "Overheat",
+    "zh-cn": "过热",
+    "zh-tw": "過熱"
+  },
+  "义眼重启": {
+    "en-us": "Reboot optics",
+    "zh-cn": "义眼重启",
+    "zh-tw": "義眼重啟"
+  },
+  "义体失灵": {
+    "en-us": "Cripple movement",
+    "zh-cn": "义体失灵",
+    "zh-tw": "義體失靈"
+  },
+  "武器故障": {
+    "en-us": "Weapon glitch",
+    "zh-cn": "武器故障",
+    "zh-tw": "武器故障"
+  },
+  "记忆清除": {
+    "en-us": "Memory wipe",
+    "zh-cn": "记忆清除",
+    "zh-tw": "記憶清除"
+  },
+  "赛博精神病": {
+    "en-us": "Cyberpsychosis",
+    "zh-cn": "赛博精神病",
+    "zh-tw": "賽博精神病"
+  },
+  "黑墙": {
+    "en-us": "Blackwall",
+    "zh-cn": "黑墙",
+    "zh-tw": "黑墻"
+  },
+  "车辆制动": {
+    "en-us": "Vehicle brakes",
+    "zh-cn": "车辆制动",
+    "zh-tw": "車輛制動"
+  },
+  "车辆加速": {
+    "en-us": "Vehicle accelerate",
+    "zh-cn": "车辆加速",
+    "zh-tw": "車輛加速"
+  },
+  "接管车辆": {
+    "en-us": "Control vehicle",
+    "zh-cn": "接管车辆",
+    "zh-tw": "接管車輛"
+  },
+  "车辆自毁": {
+    "en-us": "Vehicle self-destruct",
+    "zh-cn": "车辆自毁",
+    "zh-tw": "車輛自毀"
+  },
+  "治疗 V": {
+    "en-us": "Heal V",
+    "zh-cn": "治疗 V",
+    "zh-tw": "治療 V"
+  },
+  "附近敌人·黑墙": {
+    "en-us": "Area Blackwall",
+    "zh-cn": "附近敌人·黑墙",
+    "zh-tw": "附近敵人·黑墻"
+  },
+  "领取摩羯接入仓": {
+    "en-us": "Get Capricorn deck",
+    "zh-cn": "领取摩羯接入仓",
+    "zh-tw": "領取摩羯接入倉"
+  },
+  "部署奇美拉": {
+    "en-us": "Deploy Chimera",
+    "zh-cn": "部署奇美拉",
+    "zh-tw": "部署奇美拉"
+  },
+  "跟随": {
+    "en-us": "Follow",
+    "zh-cn": "跟随",
+    "zh-tw": "跟隨"
+  },
+  "警戒": {
+    "en-us": "Guard",
+    "zh-cn": "警戒",
+    "zh-tw": "警戒"
+  },
+  "摧毁目标": {
+    "en-us": "Attack target",
+    "zh-cn": "摧毁目标",
+    "zh-tw": "摧毀目標"
+  },
+  "停火": {
+    "en-us": "Cease fire",
+    "zh-cn": "停火",
+    "zh-tw": "停火"
+  },
+  "召回": {
+    "en-us": "Recall",
+    "zh-cn": "召回",
+    "zh-tw": "召回"
+  },
+  "Capricorn: offline greeting": {
+    "en-us": "Capricorn: offline greeting",
+    "zh-cn": "摩羯：离线问候",
+    "zh-tw": "摩羯：離線問候"
+  },
+  "Capricorn: Toggle chat window / 打开关闭聊天": {
+    "en-us": "Capricorn: Toggle chat window",
+    "zh-cn": "摩羯：打开/关闭聊天",
+    "zh-tw": "摩羯：打開/關閉聊天"
+  },
+  "Capricorn: Blackwall on crosshair target": {
+    "en-us": "Capricorn: Blackwall on crosshair target",
+    "zh-cn": "摩羯：黑墙攻击准星目标",
+    "zh-tw": "摩羯：黑墻攻擊準星目標"
+  },
+  "Capricorn: brake crosshair vehicle": {
+    "en-us": "Capricorn: brake crosshair vehicle",
+    "zh-cn": "摩羯：制动准星车辆",
+    "zh-tw": "摩羯：制動準星車輛"
+  },
+  "Capricorn: heal V": {
+    "en-us": "Capricorn: heal V",
+    "zh-cn": "摩羯：治疗 V",
+    "zh-tw": "摩羯：治療 V"
+  },
+  "摩羯 / CAPRICORN": {
+    "en-us": "CAPRICORN / Capri",
+    "zh-cn": "摩羯 / CAPRICORN",
+    "zh-tw": "摩羯 / CAPRICORN"
+  },
+  "输入消息或点快捷互动；Esc 关闭": {
+    "en-us": "Type a message or use a quick action; Esc closes",
+    "zh-cn": "输入消息或点快捷互动；Esc 关闭",
+    "zh-tw": "輸入消息或點快捷互動；Esc 關閉"
+  },
+  "和摩羯说点什么…": {
+    "en-us": "Say something to Capri…",
+    "zh-cn": "和摩羯说点什么…",
+    "zh-tw": "和摩羯說點什么…"
+  },
+  "聊聊": {
+    "en-us": "Chat",
+    "zh-cn": "聊聊",
+    "zh-tw": "聊聊"
+  },
+  "治疗": {
+    "en-us": "Heal",
+    "zh-cn": "治疗",
+    "zh-tw": "治療"
+  },
+  "关闭": {
+    "en-us": "Close",
+    "zh-cn": "关闭",
+    "zh-tw": "關閉"
+  },
+  "陪我聊聊吧。": {
+    "en-us": "Let us chat.",
+    "zh-cn": "陪我聊聊吧。",
+    "zh-tw": "陪我聊聊吧。"
+  },
+  "摩羯：我在，V。今天想聊什么？\n\n": {
+    "en-us": "Capri: I'm here, V. What's on your mind?\n\n",
+    "zh-cn": "摩羯：我在，V。今天想聊什么？\n\n",
+    "zh-tw": "摩羯：我在，V。今天想聊什么？\n\n"
+  },
+  "V：": {
+    "en-us": "V: ",
+    "zh-cn": "V：",
+    "zh-tw": "V："
+  },
+  "\n\n摩羯：": {
+    "en-us": "\n\nCapri: ",
+    "zh-cn": "\n\n摩羯：",
+    "zh-tw": "\n\n摩羯："
+  },
+  "正在回复…": {
+    "en-us": "Preparing a reply…",
+    "zh-cn": "正在回复…",
+    "zh-tw": "正在回復…"
+  },
+  "摩羯接入仓库了。去义体医生那里安装我，或者直接用 Relic 指令——我已经在这儿了。": {
+    "en-us": "Capricorn is in your inventory. Equip me at a ripperdoc, or use the Relic commands. I'm already here.",
+    "zh-cn": "摩羯接入仓库了。去义体医生那里安装我，或者直接用 Relic 指令——我已经在这儿了。",
+    "zh-tw": "摩羯接入倉庫了。去義體醫生那里安裝我，或者直接用 Relic 指令——我已經在這兒了。"
+  },
+  "没有可用目标。准星对准人或车辆后重试。": {
+    "en-us": "No valid target. Aim at a person or vehicle and retry.",
+    "zh-cn": "没有可用目标。准星对准人或车辆后重试。",
+    "zh-tw": "沒有可用目標。準星對準人或車輛后重試。"
+  },
+  "车辆：紧急制动。": {
+    "en-us": "Vehicle: emergency brakes.",
+    "zh-cn": "车辆：紧急制动。",
+    "zh-tw": "車輛：緊急制動。"
+  },
+  "车辆：强制加速。": {
+    "en-us": "Vehicle: forced acceleration.",
+    "zh-cn": "车辆：强制加速。",
+    "zh-tw": "車輛：強制加速。"
+  },
+  "车辆：远程连接已接管。按游戏提示退出。": {
+    "en-us": "Vehicle: remote control connected. Follow the game prompt to disconnect.",
+    "zh-cn": "车辆：远程连接已接管。按游戏提示退出。",
+    "zh-tw": "車輛：遠程連接已接管。按游戲提示退出。"
+  },
+  "车辆：自毁指令已下达。": {
+    "en-us": "Vehicle: self-destruct requested.",
+    "zh-cn": "车辆：自毁指令已下达。",
+    "zh-tw": "車輛：自毀指令已下達。"
+  },
+  "该指令适用于人物。对车辆使用制动、加速、接管或自毁。": {
+    "en-us": "That command is for NPCs. Use brakes, accelerate, control or self-destruct on vehicles.",
+    "zh-cn": "该指令适用于人物。对车辆使用制动、加速、接管或自毁。",
+    "zh-tw": "該指令適用于人物。對車輛使用制動、加速、接管或自毀。"
+  },
+  "目标不是存活人物/机械单位。": {
+    "en-us": "Target is not a living person or machine.",
+    "zh-cn": "目标不是存活人物/机械单位。",
+    "zh-tw": "目標不是存活人物/機械單位。"
+  },
+  "黑墙已接入。": {
+    "en-us": "Blackwall connected.",
+    "zh-cn": "黑墙已接入。",
+    "zh-tw": "黑墻已接入。"
+  },
+  "未知人物指令。": {
+    "en-us": "Unknown NPC command.",
+    "zh-cn": "未知人物指令。",
+    "zh-tw": "未知人物指令。"
+  },
+  "当前游戏缺少该效果记录。": {
+    "en-us": "This effect record is missing in the current game.",
+    "zh-cn": "当前游戏缺少该效果记录。",
+    "zh-tw": "當前游戲缺少該效果記錄。"
+  },
+  "已直接上传：无 RAM 消耗、无上传等待、无天赋门槛。": {
+    "en-us": "Direct upload: no RAM cost, upload delay or perk requirement.",
+    "zh-cn": "已直接上传：无 RAM 消耗、无上传等待、无天赋门槛。",
+    "zh-tw": "已直接上傳：無 RAM 消耗、無上傳等待、無天賦門檻。"
+  },
+  "CAPRICORN\nRELIC // ONLINE": {
+    "en-us": "CAPRICORN\nRELIC // ONLINE",
+    "zh-cn": "CAPRICORN\nRELIC // ONLINE",
+    "zh-tw": "CAPRICORN\nRELIC // ONLINE"
+  }
+}

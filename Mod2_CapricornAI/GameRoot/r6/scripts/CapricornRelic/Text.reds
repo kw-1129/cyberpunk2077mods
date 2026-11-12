@@ -1,0 +1,114 @@
+import Codeware.Localization.*
+
+public abstract class CRText {
+  public static func Language() -> CName {
+    let system = LocalizationSystem.GetInstance(GetGameInstance());
+    return IsDefined(system) ? system.GetInterfaceLanguage() : n"en-us";
+  }
+  public static func Text(value: String) -> String {
+    let language = CRText.Language();
+    let traditional = Equals(language,n"zh-tw");
+    let chinese = traditional || Equals(language,n"zh-cn");
+    switch value {
+      case "Recall": return chinese ? (traditional ? "召回" : "召回") : "Recall";
+      case "Register garage": return chinese ? (traditional ? "加入車庫" : "加入车库") : "Register garage";
+      case "Remove entries": return chinese ? (traditional ? "移除車庫條目" : "移除车库条目") : "Remove entries";
+      case "Load a save first.": return chinese ? (traditional ? "先加載存檔。" : "先加载存档。") : "Load a save first.";
+      case "Unavailable": return chinese ? (traditional ? "暫不可用" : "暂不可用") : "Unavailable";
+      case "Scripts unavailable: check r6/logs/redscript_rCURRENT.log": return chinese ? (traditional ? "腳本未就緒，請查看 r6/logs/redscript_rCURRENT.log。" : "脚本未就绪，请查看 r6/logs/redscript_rCURRENT.log。") : "Scripts unavailable: check r6/logs/redscript_rCURRENT.log";
+      case "Error: ": return chinese ? (traditional ? "錯誤：" : "错误：") : "Error: ";
+      case "请先安装 Mod1：魔蜥与奇美拉仓库。": return chinese ? (traditional ? "請先安裝 Mod1：魔蜥與奇美拉倉庫。" : "请先安装 Mod1：魔蜥与奇美拉仓库。") : "Install Mod1_ChimeraCommands first.";
+      case "Relic 互动已关闭。": return chinese ? (traditional ? "Relic 互動已關閉。" : "Relic 互动已关闭。") : "Relic interactions are disabled.";
+      case "奇美拉指令已执行。": return chinese ? (traditional ? "奇美拉指令已執行。" : "奇美拉指令已执行。") : "Chimera command dispatched.";
+      case "需要先安装 Mod1。": return chinese ? (traditional ? "需要先安裝 Mod1。" : "需要先安装 Mod1。") : "Install Mod1_ChimeraCommands first.";
+      case "部署请求已发送。": return chinese ? (traditional ? "部署請求已發送。" : "部署请求已发送。") : "Deployment requested.";
+      case "黑墙已上传到 ": return chinese ? (traditional ? "黑墻已上傳到 " : "黑墙已上传到 ") : "Blackwall uploaded to ";
+      case " 个附近敌对目标。": return chinese ? (traditional ? " 個附近敵對目標。" : " 个附近敌对目标。") : " nearby hostile targets.";
+      case "已放入摩羯接入仓。": return chinese ? (traditional ? "已放入摩羯接入倉。" : "已放入摩羯接入仓。") : "Capricorn cyberdeck added.";
+      case "指令暂时未完成，请查看面板诊断。": return chinese ? (traditional ? "指令暫時未完成，請查看面板診斷。" : "指令暂时未完成，请查看面板诊断。") : "Command failed. Check the panel diagnostics.";
+      case "离线模式": return chinese ? (traditional ? "離線模式" : "离线模式") : "Offline mode";
+      case "桥接器不可用": return chinese ? (traditional ? "橋接器不可用" : "桥接器不可用") : "Bridge unavailable";
+      case "等待 AI 回复…": return chinese ? (traditional ? "等待 AI 回復…" : "等待 AI 回复…") : "Waiting for AI…";
+      case "连接失败": return chinese ? (traditional ? "連接失敗" : "连接失败") : "Connection failed";
+      case "AI 已回复": return chinese ? (traditional ? "AI 已回復" : "AI 已回复") : "AI replied";
+      case "API 超时，可重试": return chinese ? (traditional ? "API 超時，可重試" : "API 超时，可重试") : "API timed out. You can retry.";
+      case "发送失败，请重试": return chinese ? (traditional ? "發送失敗，請重試" : "发送失败，请重试") : "Send failed. Please retry.";
+      case "摩羯 / CAPRICORN · RELIC": return chinese ? (traditional ? "摩羯 / CAPRICORN · RELIC" : "摩羯 / CAPRICORN · RELIC") : "CAPRICORN | Relic";
+      case "离线陪伴、自由黑客指令，以及可选 AI API。准星先对准目标，再点指令或按快捷键。": return chinese ? (traditional ? "離線陪伴、自由黑客指令，以及可選 AI API。準星先對準目標，再點指令或按快捷鍵。" : "离线陪伴、自由黑客指令，以及可选 AI API。准星先对准目标，再点指令或按快捷键。") : "Offline companionship, direct hacking commands and optional AI chat. Aim at a target before selecting a command or pressing its hotkey.";
+      case "打开简洁聊天窗口": return chinese ? (traditional ? "打開簡潔聊天窗口" : "打开简洁聊天窗口") : "Open compact chat";
+      case "按 CET 面板键关闭覆盖层后，聊天窗口会打开。": return chinese ? (traditional ? "按 CET 面板鍵關閉覆蓋層后，聊天窗口會打開。" : "按 CET 面板键关闭覆盖层后，聊天窗口会打开。") : "Close the CET overlay to open the chat window.";
+      case "启用额外互动": return chinese ? (traditional ? "啟用額外互動" : "启用额外互动") : "Enable extra interactions";
+      case "显示摩羯 HUD 立绘": return chinese ? (traditional ? "顯示摩羯 HUD 立繪" : "显示摩羯 HUD 立绘") : "Show Capricorn portrait";
+      case "离线情境互动": return chinese ? (traditional ? "離線情境互動" : "离线情境互动") : "Offline contextual reactions";
+      case "启用外部 AI API（需启动独立桥接器）": return chinese ? (traditional ? "啟用外部 AI API（需啟動獨立橋接器）" : "启用外部 AI API（需启动独立桥接器）") : "Enable AI API (requires the bridge)";
+      case "允许 AI 调用游戏指令": return chinese ? (traditional ? "允許 AI 調用游戲指令" : "允许 AI 调用游戏指令") : "Allow AI game actions";
+      case "消息": return chinese ? (traditional ? "消息" : "消息") : "Message";
+      case "等待 AI...": return chinese ? (traditional ? "等待 AI..." : "等待 AI...") : "Waiting for AI…";
+      case "发送": return chinese ? (traditional ? "發送" : "发送") : "Send";
+      case "离线聊聊": return chinese ? (traditional ? "離線聊聊" : "离线聊聊") : "Offline chat";
+      case "奇美拉协同（Mod1）": return chinese ? (traditional ? "奇美拉協同（Mod1）" : "奇美拉协同（Mod1）") : "Chimera coordination (Mod1)";
+      case "诊断：": return chinese ? (traditional ? "診斷：" : "诊断：") : "Diagnostics: ";
+      case "API 设置：桌面模组包里的“启动AI桥接.cmd”。聊天与简单指令默认离线可用。原版 Capricorn 的接入仓、台词、语音和任务仍由原模组提供。": return chinese ? (traditional ? "API 設置：模組包中的 StartAIBridge.cmd。默認離線可用；原 Capricorn 內容由基礎模組提供。" : "API 设置：模组包中的 StartAIBridge.cmd。默认离线可用；原 Capricorn 内容由基础模组提供。") : "API setup: StartAIBridge.cmd in the mod package. Offline chat and commands work without it. The original Capricorn mod provides its deck, dialogue, voices and quest.";
+      case "V: ": return chinese ? (traditional ? "V: " : "V: ") : "V: ";
+      case "[执行] ": return chinese ? (traditional ? "[執行] " : "[执行] ") : "[Action] ";
+      case "摩羯: ": return chinese ? (traditional ? "摩羯: " : "摩羯: ") : "Capri: ";
+      case "短路": return chinese ? (traditional ? "短路" : "短路") : "Short circuit";
+      case "过热": return chinese ? (traditional ? "過熱" : "过热") : "Overheat";
+      case "义眼重启": return chinese ? (traditional ? "義眼重啟" : "义眼重启") : "Reboot optics";
+      case "义体失灵": return chinese ? (traditional ? "義體失靈" : "义体失灵") : "Cripple movement";
+      case "武器故障": return chinese ? (traditional ? "武器故障" : "武器故障") : "Weapon glitch";
+      case "记忆清除": return chinese ? (traditional ? "記憶清除" : "记忆清除") : "Memory wipe";
+      case "赛博精神病": return chinese ? (traditional ? "賽博精神病" : "赛博精神病") : "Cyberpsychosis";
+      case "黑墙": return chinese ? (traditional ? "黑墻" : "黑墙") : "Blackwall";
+      case "车辆制动": return chinese ? (traditional ? "車輛制動" : "车辆制动") : "Vehicle brakes";
+      case "车辆加速": return chinese ? (traditional ? "車輛加速" : "车辆加速") : "Vehicle accelerate";
+      case "接管车辆": return chinese ? (traditional ? "接管車輛" : "接管车辆") : "Control vehicle";
+      case "车辆自毁": return chinese ? (traditional ? "車輛自毀" : "车辆自毁") : "Vehicle self-destruct";
+      case "治疗 V": return chinese ? (traditional ? "治療 V" : "治疗 V") : "Heal V";
+      case "附近敌人·黑墙": return chinese ? (traditional ? "附近敵人·黑墻" : "附近敌人·黑墙") : "Area Blackwall";
+      case "领取摩羯接入仓": return chinese ? (traditional ? "領取摩羯接入倉" : "领取摩羯接入仓") : "Get Capricorn deck";
+      case "部署奇美拉": return chinese ? (traditional ? "部署奇美拉" : "部署奇美拉") : "Deploy Chimera";
+      case "跟随": return chinese ? (traditional ? "跟隨" : "跟随") : "Follow";
+      case "警戒": return chinese ? (traditional ? "警戒" : "警戒") : "Guard";
+      case "摧毁目标": return chinese ? (traditional ? "摧毀目標" : "摧毁目标") : "Attack target";
+      case "停火": return chinese ? (traditional ? "停火" : "停火") : "Cease fire";
+      case "召回": return chinese ? (traditional ? "召回" : "召回") : "Recall";
+      case "Capricorn: offline greeting": return chinese ? (traditional ? "摩羯：離線問候" : "摩羯：离线问候") : "Capricorn: offline greeting";
+      case "Capricorn: Toggle chat window / 打开关闭聊天": return chinese ? (traditional ? "摩羯：打開/關閉聊天" : "摩羯：打开/关闭聊天") : "Capricorn: Toggle chat window";
+      case "Capricorn: Blackwall on crosshair target": return chinese ? (traditional ? "摩羯：黑墻攻擊準星目標" : "摩羯：黑墙攻击准星目标") : "Capricorn: Blackwall on crosshair target";
+      case "Capricorn: brake crosshair vehicle": return chinese ? (traditional ? "摩羯：制動準星車輛" : "摩羯：制动准星车辆") : "Capricorn: brake crosshair vehicle";
+      case "Capricorn: heal V": return chinese ? (traditional ? "摩羯：治療 V" : "摩羯：治疗 V") : "Capricorn: heal V";
+      case "摩羯 / CAPRICORN": return chinese ? (traditional ? "摩羯 / CAPRICORN" : "摩羯 / CAPRICORN") : "CAPRICORN / Capri";
+      case "输入消息或点快捷互动；Esc 关闭": return chinese ? (traditional ? "輸入消息或點快捷互動；Esc 關閉" : "输入消息或点快捷互动；Esc 关闭") : "Type a message or use a quick action; Esc closes";
+      case "和摩羯说点什么…": return chinese ? (traditional ? "和摩羯說點什么…" : "和摩羯说点什么…") : "Say something to Capri…";
+      case "聊聊": return chinese ? (traditional ? "聊聊" : "聊聊") : "Chat";
+      case "治疗": return chinese ? (traditional ? "治療" : "治疗") : "Heal";
+      case "关闭": return chinese ? (traditional ? "關閉" : "关闭") : "Close";
+      case "陪我聊聊吧。": return chinese ? (traditional ? "陪我聊聊吧。" : "陪我聊聊吧。") : "Let us chat.";
+      case "摩羯：我在，V。今天想聊什么？\n\n": return chinese ? (traditional ? "摩羯：我在，V。今天想聊什么？\n\n" : "摩羯：我在，V。今天想聊什么？\n\n") : "Capri: I'm here, V. What's on your mind?\n\n";
+      case "V：": return chinese ? (traditional ? "V：" : "V：") : "V: ";
+      case "\n\n摩羯：": return chinese ? (traditional ? "\n\n摩羯：" : "\n\n摩羯：") : "\n\nCapri: ";
+      case "正在回复…": return chinese ? (traditional ? "正在回復…" : "正在回复…") : "Preparing a reply…";
+      case "摩羯接入仓库了。去义体医生那里安装我，或者直接用 Relic 指令——我已经在这儿了。": return chinese ? (traditional ? "摩羯接入倉庫了。去義體醫生那里安裝我，或者直接用 Relic 指令——我已經在這兒了。" : "摩羯接入仓库了。去义体医生那里安装我，或者直接用 Relic 指令——我已经在这儿了。") : "Capricorn is in your inventory. Equip me at a ripperdoc, or use the Relic commands. I'm already here.";
+      case "没有可用目标。准星对准人或车辆后重试。": return chinese ? (traditional ? "沒有可用目標。準星對準人或車輛后重試。" : "没有可用目标。准星对准人或车辆后重试。") : "No valid target. Aim at a person or vehicle and retry.";
+      case "车辆：紧急制动。": return chinese ? (traditional ? "車輛：緊急制動。" : "车辆：紧急制动。") : "Vehicle: emergency brakes.";
+      case "车辆：强制加速。": return chinese ? (traditional ? "車輛：強制加速。" : "车辆：强制加速。") : "Vehicle: forced acceleration.";
+      case "车辆：远程连接已接管。按游戏提示退出。": return chinese ? (traditional ? "車輛：遠程連接已接管。按游戲提示退出。" : "车辆：远程连接已接管。按游戏提示退出。") : "Vehicle: remote control connected. Follow the game prompt to disconnect.";
+      case "车辆：自毁指令已下达。": return chinese ? (traditional ? "車輛：自毀指令已下達。" : "车辆：自毁指令已下达。") : "Vehicle: self-destruct requested.";
+      case "该指令适用于人物。对车辆使用制动、加速、接管或自毁。": return chinese ? (traditional ? "該指令適用于人物。對車輛使用制動、加速、接管或自毀。" : "该指令适用于人物。对车辆使用制动、加速、接管或自毁。") : "That command is for NPCs. Use brakes, accelerate, control or self-destruct on vehicles.";
+      case "目标不是存活人物/机械单位。": return chinese ? (traditional ? "目標不是存活人物/機械單位。" : "目标不是存活人物/机械单位。") : "Target is not a living person or machine.";
+      case "黑墙已接入。": return chinese ? (traditional ? "黑墻已接入。" : "黑墙已接入。") : "Blackwall connected.";
+      case "未知人物指令。": return chinese ? (traditional ? "未知人物指令。" : "未知人物指令。") : "Unknown NPC command.";
+      case "当前游戏缺少该效果记录。": return chinese ? (traditional ? "當前游戲缺少該效果記錄。" : "当前游戏缺少该效果记录。") : "This effect record is missing in the current game.";
+      case "已直接上传：无 RAM 消耗、无上传等待、无天赋门槛。": return chinese ? (traditional ? "已直接上傳：無 RAM 消耗、無上傳等待、無天賦門檻。" : "已直接上传：无 RAM 消耗、无上传等待、无天赋门槛。") : "Direct upload: no RAM cost, upload delay or perk requirement.";
+      case "CAPRICORN\nRELIC // ONLINE": return chinese ? (traditional ? "CAPRICORN\nRELIC // ONLINE" : "CAPRICORN\nRELIC // ONLINE") : "CAPRICORN\nRELIC // ONLINE";
+      case "Eliminate everything around me.": return chinese ? (traditional ? "消滅附近敵人。" : "消灭附近敌人。") : "Eliminate everything around me.";
+      case "Let's go home.": return chinese ? (traditional ? "回家吧。" : "回家吧。") : "Let's go home.";
+      case "Bring me to the nearest Ripperdoc.": return chinese ? (traditional ? "帶我去最近的義體醫生那里。" : "带我去最近的义体医生那里。") : "Bring me to the nearest Ripperdoc.";
+      case "Fix me up.": return chinese ? (traditional ? "治療我。" : "治疗我。") : "Fix me up.";
+      case "Nevermind.": return chinese ? (traditional ? "算了。" : "算了。") : "Nevermind.";
+      case "Call Capri": return chinese ? (traditional ? "呼叫摩羯" : "呼叫摩羯") : "Call Capri";
+      default: return value;
+    }
+  }
+}

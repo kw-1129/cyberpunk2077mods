@@ -1,0 +1,328 @@
+
+version: 1.0.0
+
+voices:
+  capri_call_0_0:
+    en-us:
+      fem: ./voices/call_0_0.mp3
+      male: ./voices/call_0_0.mp3
+
+  capri_call_0_1:
+    en-us:
+      fem: ./voices/call_0_1.mp3
+      male: ./voices/call_0_1.mp3
+
+  capri_call_0_2:
+    en-us:
+      fem: ./voices/call_0_2.mp3
+      male: ./voices/call_0_2.mp3
+
+  capri_call_0_3:
+    en-us:
+      fem: ./voices/call_0_3.mp3
+      male: ./voices/call_0_3.mp3
+
+  capri_call_0_4:
+    en-us:
+      fem: ./voices/call_0_4.mp3
+      male: ./voices/call_0_4.mp3
+
+  capri_call_1_0:
+    en-us:
+      fem: ./voices/call_1_0.mp3
+      male: ./voices/call_1_0.mp3
+
+  capri_call_1_1:
+    en-us:
+      fem: ./voices/call_1_1.mp3
+      male: ./voices/call_1_1.mp3
+
+  capri_call_1_2:
+    en-us:
+      fem: ./voices/call_1_2.mp3
+      male: ./voices/call_1_2.mp3
+
+  capri_call_1_3:
+    en-us:
+      fem: ./voices/call_1_3.mp3
+      male: ./voices/call_1_3.mp3
+
+  capri_call_2_0:
+    en-us:
+      fem: ./voices/call_2_0.mp3
+      male: ./voices/call_2_0.mp3
+
+  capri_call_2_1:
+    en-us:
+      fem: ./voices/call_2_1.mp3
+      male: ./voices/call_2_1.mp3
+
+  capri_call_2_2:
+    en-us:
+      fem: ./voices/call_2_2.mp3
+      male: ./voices/call_2_2.mp3
+
+  capri_call_2_3:
+    en-us:
+      fem: ./voices/call_2_3.mp3
+      male: ./voices/call_2_3.mp3
+
+  capri_call_3_0:
+    en-us:
+      fem: ./voices/call_3_0.mp3
+      male: ./voices/call_3_0.mp3
+
+  capri_call_3_1:
+    en-us:
+      fem: ./voices/call_3_1.mp3
+      male: ./voices/call_3_1.mp3
+
+  capri_call_3_2:
+    en-us:
+      fem: ./voices/call_3_2.mp3
+      male: ./voices/call_3_2.mp3
+
+  capri_call_3_3:
+    en-us:
+      fem: ./voices/call_3_3.mp3
+      male: ./voices/call_3_3.mp3
+
+  capri_call_4_0:
+    en-us:
+      fem: ./voices/call_4_0.mp3
+      male: ./voices/call_4_0.mp3
+
+  capri_call_4_1:
+    en-us:
+      fem: ./voices/call_4_1.mp3
+      male: ./voices/call_4_1.mp3
+
+  capri_call_4_2:
+    en-us:
+      fem: ./voices/call_4_2.mp3
+      male: ./voices/call_4_2.mp3
+
+  capri_call_4_3:
+    en-us:
+      fem: ./voices/call_4_3.mp3
+      male: ./voices/call_4_3.mp3
+
+  capri_call_5_0:
+    en-us:
+      fem: ./voices/call_5_0.mp3
+      male: ./voices/call_5_0.mp3
+
+  capri_call_5_1:
+    en-us:
+      fem: ./voices/call_5_1.mp3
+      male: ./voices/call_5_1.mp3
+
+  capri_call_5_2:
+    en-us:
+      fem: ./voices/call_5_2.mp3
+      male: ./voices/call_5_2.mp3
+
+  capri_call_5_3:
+    en-us:
+      fem: ./voices/call_5_3.mp3
+      male: ./voices/call_5_3.mp3
+
+  reactive_0_0:
+    en-us:
+      fem: ./voices/reactive_0_0.mp3
+      male: ./voices/reactive_0_0.mp3
+
+  reactive_0_1:
+    en-us:
+      fem: ./voices/reactive_0_1.mp3
+      male: ./voices/reactive_0_1.mp3
+
+  reactive_0_2:
+    en-us:
+      fem: ./voices/reactive_0_2.mp3
+      male: ./voices/reactive_0_2.mp3
+
+  reactive_0_3:
+    en-us:
+      fem: ./voices/reactive_0_3.mp3
+      male: ./voices/reactive_0_3.mp3
+
+  reactive_0_4:
+    en-us:
+      fem: ./voices/reactive_0_4.mp3
+      male: ./voices/reactive_0_4.mp3
+
+  reactive_1_0:
+    en-us:
+      fem: ./voices/reactive_1_0.mp3
+      male: ./voices/reactive_1_0.mp3
+
+  reactive_1_1:
+    en-us:
+      fem: ./voices/reactive_1_1.mp3
+      male: ./voices/reactive_1_1.mp3
+
+  reactive_1_2:
+    en-us:
+      fem: ./voices/reactive_1_2.mp3
+      male: ./voices/reactive_1_2.mp3
+
+  reactive_1_3:
+    en-us:
+      fem: ./voices/reactive_1_3.mp3
+      male: ./voices/reactive_1_3.mp3
+
+  reactive_1_4:
+    en-us:
+      fem: ./voices/reactive_1_4.mp3
+      male: ./voices/reactive_1_4.mp3
+
+  reactive_2_0:
+    en-us:
+      fem: ./voices/reactive_2_0.mp3
+      male: ./voices/reactive_2_0.mp3
+
+  reactive_2_1:
+    en-us:
+      fem: ./voices/reactive_2_1.mp3
+      male: ./voices/reactive_2_1.mp3
+
+  reactive_2_2:
+    en-us:
+      fem: ./voices/reactive_2_2.mp3
+      male: ./voices/reactive_2_2.mp3
+
+  reactive_2_3:
+    en-us:
+      fem: ./voices/reactive_2_3.mp3
+      male: ./voices/reactive_2_3.mp3
+
+  reactive_2_4:
+    en-us:
+      fem: ./voices/reactive_2_4.mp3
+      male: ./voices/reactive_2_4.mp3
+
+  reactive_3_0:
+    en-us:
+      fem: ./voices/reactive_3_0.mp3
+      male: ./voices/reactive_3_0.mp3
+
+  reactive_3_1:
+    en-us:
+      fem: ./voices/reactive_3_1.mp3
+      male: ./voices/reactive_3_1.mp3
+
+  reactive_3_2:
+    en-us:
+      fem: ./voices/reactive_3_2.mp3
+      male: ./voices/reactive_3_2.mp3
+
+  reactive_3_3:
+    en-us:
+      fem: ./voices/reactive_3_3.mp3
+      male: ./voices/reactive_3_3.mp3
+
+  reactive_3_4:
+    en-us:
+      fem: ./voices/reactive_3_4.mp3
+      male: ./voices/reactive_3_4.mp3
+
+  reactive_4_0:
+    en-us:
+      fem: ./voices/reactive_4_0.mp3
+      male: ./voices/reactive_4_0.mp3
+
+  reactive_4_1:
+    en-us:
+      fem: ./voices/reactive_4_1.mp3
+      male: ./voices/reactive_4_1.mp3
+
+  reactive_4_2:
+    en-us:
+      fem: ./voices/reactive_4_2.mp3
+      male: ./voices/reactive_4_2.mp3
+
+  reactive_4_3:
+    en-us:
+      fem: ./voices/reactive_4_3.mp3
+      male: ./voices/reactive_4_3.mp3
+
+  reactive_4_4:
+    en-us:
+      fem: ./voices/reactive_4_4.mp3
+      male: ./voices/reactive_4_4.mp3
+
+  reactive_5_0:
+    en-us:
+      fem: ./voices/reactive_5_0.mp3
+      male: ./voices/reactive_5_0.mp3
+
+  reactive_5_1:
+    en-us:
+      fem: ./voices/reactive_5_1.mp3
+      male: ./voices/reactive_5_1.mp3
+
+  reactive_5_2:
+    en-us:
+      fem: ./voices/reactive_5_2.mp3
+      male: ./voices/reactive_5_2.mp3
+
+  reactive_5_3:
+    en-us:
+      fem: ./voices/reactive_5_3.mp3
+      male: ./voices/reactive_5_3.mp3
+
+  reactive_5_4:
+    en-us:
+      fem: ./voices/reactive_5_4.mp3
+      male: ./voices/reactive_5_4.mp3
+
+  reactive_6_0:
+    en-us:
+      fem: ./voices/reactive_6_0.mp3
+      male: ./voices/reactive_6_0.mp3
+
+  reactive_6_1:
+    en-us:
+      fem: ./voices/reactive_6_1.mp3
+      male: ./voices/reactive_6_1.mp3
+
+  reactive_6_2:
+    en-us:
+      fem: ./voices/reactive_6_2.mp3
+      male: ./voices/reactive_6_2.mp3
+
+  reactive_6_3:
+    en-us:
+      fem: ./voices/reactive_6_3.mp3
+      male: ./voices/reactive_6_3.mp3
+
+  reactive_6_4:
+    en-us:
+      fem: ./voices/reactive_6_4.mp3
+      male: ./voices/reactive_6_4.mp3
+
+  reactive_7_0:
+    en-us:
+      fem: ./voices/reactive_7_0.mp3
+      male: ./voices/reactive_7_0.mp3
+
+  reactive_7_1:
+    en-us:
+      fem: ./voices/reactive_7_1.mp3
+      male: ./voices/reactive_7_1.mp3
+
+  reactive_7_2:
+    en-us:
+      fem: ./voices/reactive_7_2.mp3
+      male: ./voices/reactive_7_2.mp3
+
+  reactive_7_3:
+    en-us:
+      fem: ./voices/reactive_7_3.mp3
+      male: ./voices/reactive_7_3.mp3
+
+  reactive_7_4:
+    en-us:
+      fem: ./voices/reactive_7_4.mp3
+      male: ./voices/reactive_7_4.mp3

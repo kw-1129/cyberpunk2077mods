@@ -1,0 +1,9 @@
+{
+  "game_dir": "D:\\steam\\steamapps\\common\\Cyberpunk 2077",
+  "base_url": "http://127.0.0.1:1234/v1",
+  "model": "local-model",
+  "api_key": "",
+  "timeout_seconds": 35,
+  "max_tokens": 400,
+  "temperature": 0.8
+}

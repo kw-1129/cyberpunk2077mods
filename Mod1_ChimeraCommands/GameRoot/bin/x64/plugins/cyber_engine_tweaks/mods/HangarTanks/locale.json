@@ -1,0 +1,232 @@
+{
+  "Recall": {
+    "en-us": "Recall",
+    "zh-cn": "召回",
+    "zh-tw": "召回"
+  },
+  "Register garage": {
+    "en-us": "Register garage",
+    "zh-cn": "加入车库",
+    "zh-tw": "加入車庫"
+  },
+  "Remove entries": {
+    "en-us": "Remove entries",
+    "zh-cn": "移除车库条目",
+    "zh-tw": "移除車庫條目"
+  },
+  "Load a save first.": {
+    "en-us": "Load a save first.",
+    "zh-cn": "先加载存档。",
+    "zh-tw": "先加載存檔。"
+  },
+  "Unavailable": {
+    "en-us": "Unavailable",
+    "zh-cn": "暂不可用",
+    "zh-tw": "暫不可用"
+  },
+  "Scripts unavailable: check r6/logs/redscript_rCURRENT.log": {
+    "en-us": "Scripts unavailable: check r6/logs/redscript_rCURRENT.log",
+    "zh-cn": "脚本未就绪，请查看 r6/logs/redscript_rCURRENT.log。",
+    "zh-tw": "腳本未就緒，請查看 r6/logs/redscript_rCURRENT.log。"
+  },
+  "Error: ": {
+    "en-us": "Error: ",
+    "zh-cn": "错误：",
+    "zh-tw": "錯誤："
+  },
+  "CHIMERA | Command Platform": {
+    "en-us": "CHIMERA | Command Platform",
+    "zh-cn": "奇美拉 · 指令平台",
+    "zh-tw": "奇美拉 · 指令平臺"
+  },
+  "Chimera appears in V's normal vehicle call list. Deploy on open outdoor ground. Uses native boss AI, weapons and health scaling.": {
+    "en-us": "Chimera appears in V's normal vehicle call list. Deploy on open outdoor ground. Uses native boss AI, weapons and health scaling.",
+    "zh-cn": "奇美拉会加入普通载具呼叫列表。请在室外开阔地部署，使用原版战斗 AI、武器和血量计算。",
+    "zh-tw": "奇美拉會加入普通載具呼叫列表。請在室外開闊地部署，使用原版戰斗 AI、武器和血量計算。"
+  },
+  "Deploy CHIMERA": {
+    "en-us": "Deploy CHIMERA",
+    "zh-cn": "部署奇美拉",
+    "zh-tw": "部署奇美拉"
+  },
+  "Recall Chimera": {
+    "en-us": "Recall Chimera",
+    "zh-cn": "召回奇美拉",
+    "zh-tw": "召回奇美拉"
+  },
+  "FOLLOW V": {
+    "en-us": "FOLLOW V",
+    "zh-cn": "跟随 V",
+    "zh-tw": "跟隨 V"
+  },
+  "GUARD HERE": {
+    "en-us": "GUARD HERE",
+    "zh-cn": "原地警戒",
+    "zh-tw": "原地警戒"
+  },
+  "STOP / HOLD": {
+    "en-us": "STOP / HOLD",
+    "zh-cn": "停火待命",
+    "zh-tw": "停火待命"
+  },
+  "DESTROY CROSSHAIR TARGET": {
+    "en-us": "DESTROY CROSSHAIR TARGET",
+    "zh-cn": "摧毁准星目标",
+    "zh-tw": "摧毀準星目標"
+  },
+  "For Attack, bind a hotkey in CET > Bindings. Aim at an NPC or vehicle, then press it. Guard defends a 60 m area; Follow keeps about 12 m behind V.": {
+    "en-us": "For Attack, bind a hotkey in CET > Bindings. Aim at an NPC or vehicle, then press it. Guard defends a 60 m area; Follow keeps about 12 m behind V.",
+    "zh-cn": "攻击建议在 CET → Bindings 中绑定快捷键，瞄准人物或车辆后按下。警戒范围约 60 米，跟随距离约 12 米。",
+    "zh-tw": "攻擊建議在 CET → Bindings 中綁定快捷鍵，瞄準人物或車輛后按下。警戒范圍約 60 米，跟隨距離約 12 米。"
+  },
+  "Auto-register Chimera in garage": {
+    "en-us": "Auto-register Chimera in garage",
+    "zh-cn": "自动将奇美拉加入车库",
+    "zh-tw": "自動將奇美拉加入車庫"
+  },
+  "\nChimera health: %.0f (%.1f%%)": {
+    "en-us": "\nChimera health: %.0f (%.1f%%)",
+    "zh-cn": "\n奇美拉生命值：%.0f（%.1f%%）",
+    "zh-tw": "\n奇美拉生命值：%.0f（%.1f%%）"
+  },
+  "Hangar: deploy Chimera": {
+    "en-us": "Hangar: deploy Chimera",
+    "zh-cn": "奇美拉：部署",
+    "zh-tw": "奇美拉：部署"
+  },
+  "Chimera: follow V": {
+    "en-us": "Chimera: follow V",
+    "zh-cn": "奇美拉：跟随 V",
+    "zh-tw": "奇美拉：跟隨 V"
+  },
+  "Chimera: guard position": {
+    "en-us": "Chimera: guard position",
+    "zh-cn": "奇美拉：原地警戒",
+    "zh-tw": "奇美拉：原地警戒"
+  },
+  "Chimera: destroy crosshair target": {
+    "en-us": "Chimera: destroy crosshair target",
+    "zh-cn": "奇美拉：攻击准星目标",
+    "zh-tw": "奇美拉：攻擊準星目標"
+  },
+  "Chimera: cease fire / hold": {
+    "en-us": "Chimera: cease fire / hold",
+    "zh-cn": "奇美拉：停火待命",
+    "zh-tw": "奇美拉：停火待命"
+  },
+  "Chimera: recall": {
+    "en-us": "Chimera: recall",
+    "zh-cn": "奇美拉：召回",
+    "zh-tw": "奇美拉：召回"
+  },
+  "Garage entries removed. Disable automatic registration in the hangar settings to keep them removed.": {
+    "en-us": "Garage entries removed. Disable automatic registration in the hangar settings to keep them removed.",
+    "zh-cn": "已移除车库条目。关闭自动加入车库可保持移除状态。",
+    "zh-tw": "已移除車庫條目。關閉自動加入車庫可保持移除狀態。"
+  },
+  "Basilisk is provided separately by Flying Tank (Nexus 16138).": {
+    "en-us": "Basilisk is provided separately by Flying Tank (Nexus 16138).",
+    "zh-cn": "魔蜥由独立的 Mod3_Basilisk 提供。",
+    "zh-tw": "魔蜥由獨立的 Mod3_Basilisk 提供。"
+  },
+  "Load a save and return to gameplay first.": {
+    "en-us": "Load a save and return to gameplay first.",
+    "zh-cn": "请先加载存档并回到游戏。",
+    "zh-tw": "請先加載存檔并回到游戲。"
+  },
+  "Wait for the current deployment to finish.": {
+    "en-us": "Wait for the current deployment to finish.",
+    "zh-cn": "请等待当前部署完成。",
+    "zh-tw": "請等待當前部署完成。"
+  },
+  "Exit the vehicle first.": {
+    "en-us": "Exit the vehicle first.",
+    "zh-cn": "请先下车。",
+    "zh-tw": "請先下車。"
+  },
+  "Finish the current scene first.": {
+    "en-us": "Finish the current scene first.",
+    "zh-cn": "请先完成当前剧情。",
+    "zh-tw": "請先完成當前劇情。"
+  },
+  "Deploy outdoors in a large open area.": {
+    "en-us": "Deploy outdoors in a large open area.",
+    "zh-cn": "请在室外开阔地部署。",
+    "zh-tw": "請在室外開闊地部署。"
+  },
+  "No ground found ahead. Face a clear level surface.": {
+    "en-us": "No ground found ahead. Face a clear level surface.",
+    "zh-cn": "前方没有可用地面，请面向开阔平地。",
+    "zh-tw": "前方沒有可用地面，請面向開闊平地。"
+  },
+  "Deployment requested...": {
+    "en-us": "Deployment requested...",
+    "zh-cn": "已请求部署…",
+    "zh-tw": "已請求部署…"
+  },
+  "Recalled.": {
+    "en-us": "Recalled.",
+    "zh-cn": "已召回。",
+    "zh-tw": "已召回。"
+  },
+  "Deploy a live Chimera first.": {
+    "en-us": "Deploy a live Chimera first.",
+    "zh-cn": "请先部署存活的奇美拉。",
+    "zh-tw": "請先部署存活的奇美拉。"
+  },
+  "CHIMERA: cease fire / hold position.": {
+    "en-us": "CHIMERA: cease fire / hold position.",
+    "zh-cn": "奇美拉：停火，原地待命。",
+    "zh-tw": "奇美拉：停火，原地待命。"
+  },
+  "CHIMERA: follow V, defend against nearby hostiles.": {
+    "en-us": "CHIMERA: follow V, defend against nearby hostiles.",
+    "zh-cn": "奇美拉：跟随 V，迎击附近敌人。",
+    "zh-tw": "奇美拉：跟隨 V，迎擊附近敵人。"
+  },
+  "CHIMERA: guard this position (60 m).": {
+    "en-us": "CHIMERA: guard this position (60 m).",
+    "zh-cn": "奇美拉：警戒当前位置（60 米）。",
+    "zh-tw": "奇美拉：警戒當前位置（60 米）。"
+  },
+  "Aim at a living NPC or vehicle, then issue Attack.": {
+    "en-us": "Aim at a living NPC or vehicle, then issue Attack.",
+    "zh-cn": "请瞄准存活人物或车辆，再发出攻击指令。",
+    "zh-tw": "請瞄準存活人物或車輛，再發出攻擊指令。"
+  },
+  "Target beyond 180 m command range.": {
+    "en-us": "Target beyond 180 m command range.",
+    "zh-cn": "目标超出 180 米指令范围。",
+    "zh-tw": "目標超出 180 米指令范圍。"
+  },
+  "CHIMERA: destroy designated target.": {
+    "en-us": "CHIMERA: destroy designated target.",
+    "zh-cn": "奇美拉：摧毁指定目标。",
+    "zh-tw": "奇美拉：摧毀指定目標。"
+  },
+  "Chimera deployed. Awaiting orders.": {
+    "en-us": "Chimera deployed. Awaiting orders.",
+    "zh-cn": "奇美拉部署完成，等待指令。",
+    "zh-tw": "奇美拉部署完成，等待指令。"
+  },
+  "Spawn timed out. Move to open ground, retry.": {
+    "en-us": "Spawn timed out. Move to open ground, retry.",
+    "zh-cn": "生成超时，请移至开阔地重试。",
+    "zh-tw": "生成超時，請移至開闊地重試。"
+  },
+  "CHIMERA: disabled.": {
+    "en-us": "CHIMERA: disabled.",
+    "zh-cn": "奇美拉：已失去作战能力。",
+    "zh-tw": "奇美拉：已失去作戰能力。"
+  },
+  "CHIMERA: target unloaded; holding position.": {
+    "en-us": "CHIMERA: target unloaded; holding position.",
+    "zh-cn": "奇美拉：目标已离开加载范围，原地待命。",
+    "zh-tw": "奇美拉：目標已離開加載范圍，原地待命。"
+  },
+  "CHIMERA: target neutralized or disengaged.": {
+    "en-us": "CHIMERA: target neutralized or disengaged.",
+    "zh-cn": "奇美拉：目标已消灭或脱离接战。",
+    "zh-tw": "奇美拉：目標已消滅或脫離接戰。"
+  }
+}

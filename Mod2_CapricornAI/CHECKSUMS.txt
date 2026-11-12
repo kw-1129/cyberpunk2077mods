@@ -1,0 +1,2 @@
+所有游戏载荷文件的 SHA256 位于 manifest.json。安装脚本在复制前逐个验证。
+共享前置标记 shared=true。

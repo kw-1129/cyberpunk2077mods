@@ -1,0 +1,7 @@
+# Basilisk-only extraction of the user's custom tank backup.
+Vehicle.HG_Basilisk:
+  $base: Vehicle.v_militech_basilisk
+  displayName: HGB-Basilisk
+
+Vehicle.vehicle_list.list:
+  - !append-once Vehicle.HG_Basilisk

@@ -1,0 +1,486 @@
+{
+  "name": "Mod3_Basilisk",
+  "game_version": "2.5",
+  "files": [
+    {
+      "path": "bin/x64/global.ini",
+      "sha256": "c02b09b2cf2cfab32527ee1a88ee311500c1c2f4c95d20fe0898c9e0407a4d86",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/LICENSE",
+      "sha256": "98c3b6d063066ad2dddc1a716d6ce5df8ed63497b0084b248d8d05516c57dbc7",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/config.json",
+      "sha256": "61ebff2797a28846268c244cd7b88befe5efdb2a9fd8d508a04983c7b4793007",
+      "shared": true,
+      "preserveExisting": true
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/materialdesignicons.ttf",
+      "sha256": "bd725a7a38939e5b59904e1b7a7265919ecec256166ece69d515c21005165907",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSans-Regular.ttf",
+      "sha256": "4c8d67001d3c2977e5d6bf0a4f8add80cd564bd1df60b7569fd23751e7dda02a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansJP-Regular.otf",
+      "sha256": "34b41de3f65166440ea2ce40121eb1c9b9c2bb92d188bd32a8e6091cd92316db",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansKR-Regular.otf",
+      "sha256": "29445948e432137e0de104dec389e956d72633aa0e4cb04ca572bb8e378e3d35",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansMono-Regular.ttf",
+      "sha256": "97b31969bfe7ebf894c12afdf6a5dcb6e87e64114697782802fe933e693eacd8",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansSC-Regular.otf",
+      "sha256": "a2b93e6c2db05d6bbbf6f27d413ec73269735b7b679019c8a5aa9670ff0ffbf2",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansTC-Regular.otf",
+      "sha256": "8d9cd5f210c0204d2a1ddaeaf82db1071e242126f4e18b9c350d8b1680bae400",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansThai-Regular.ttf",
+      "sha256": "f73be376b0e1704da118312e202be49e8ac04a6b2e19b588cdfc2707c7f3e25d",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/HGBasilisk/init.lua",
+      "sha256": "136c4683a18c60e0401df4e9957720964c0e0575f38ef0a986b48ebd3696862c",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/HGBasilisk/locale.json",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "278868170395cacf53094d1968bb817f6ae5a5e157f12009d40e62fa9369a84c"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/HGBasilisk/locale.lua",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "694af3db131717309db9f15ffe8f240ca61ff60608bf7a880db85c1abfa44772"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/IconGlyphs/icons.lua",
+      "sha256": "f52aa193fe7fc562c82facb18261834bdb30e61cfca0feb2effba758f8a2cf80",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/json/json.lua",
+      "sha256": "23031288e528880354d3d4651a9dc299b4c85e28889d9f5ae1dcca76b3cdc8b1",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/json/LICENSE",
+      "sha256": "f2c7e5ea921f2d0514e229e88ac39e51b3db50698b270b3a9290b610b7015fdc",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/json/README.md",
+      "sha256": "e71e8c5fa757699655d0d48843ec98b8a777c78819c1eec623f61027ac4bc5d0",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/ThirdParty_LICENSES",
+      "sha256": "83b9af1ffcc13f5822ae9ba561969bffcb8967a05edff6f41bf497e6c232fff0",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/tweakdb/tweakdbstr.kark",
+      "sha256": "ea74ca46375c414514d5b8577702c51c1ba55db06d24aaf73901541d212f5ebb",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/tweakdb/usedhashes.kark",
+      "sha256": "e1f2bf54f5d24660a4a8ecff5694b39d2ca9db4a4a8ca3c3a8900dc71477a9e2",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks.asi",
+      "sha256": "f0acdad154bd0033583e0f6e675ea18b4bdb60cda28133d792a4674e6d7f228a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/version.dll",
+      "sha256": "67565dd7f899c0e4ee3903b1cc8078ff20ca80b8100497c6ac813392e431d443",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/winmm.dll",
+      "sha256": "531efcb3d50dbbd03abd385963cf6cea97a24cdbed4a45cbb1997733b8feaf47",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "engine/config/base/scripts.ini",
+      "sha256": "ea8281682d4130f872e1703b25aa989a823f136fa1d886077af24aedb08b0d4c",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "engine/tools/scc.exe",
+      "sha256": "f7bf0a5a0986aec61d360ae79a3e957b8e21c0781309193a2a056c7bde0e90bc",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "engine/tools/scc_lib.dll",
+      "sha256": "114851d192ec815119bbfa2272da572bf026fea8e5c0a910a4c8ad84b877dc09",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/config/cybercmd/scc.toml",
+      "sha256": "05802a334d72e87194d49765b7b852c2a983f8849851abcf3fd1366f64d4a934",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/config/redsUserHints/ArchiveXL.toml",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/HGBasilisk/HGBasilisk.reds",
+      "sha256": "5e757926b22c3ac1e809a2cfcb2b28b91f5d47d30c1f4c4f2b35eb94ba1073f3",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/HGBasilisk/Localization.reds",
+      "sha256": "14c6c1f610ec2a8220cccef8f153cf83e2bed862524552575761127b88480a84",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/HGBasilisk/Text.reds",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "27659e618ee6f768aa805158619dc537991aad175fffe99c7a573d139dcc1fb6"
+    },
+    {
+      "path": "r6/tweaks/HGBasilisk.yaml",
+      "sha256": "c11c9e6b4de25b7ed7ef38110d948d3541f43992c150d7018aa4e239558aa5e1",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/LICENSE.txt",
+      "sha256": "a0b08b28ae3931a5a41a1788aac6c7a391513bfc3599272021ea5b2c1af2f6f6",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/ArchiveXL.dll",
+      "sha256": "97692f23b03fdb87354a3e1a4aaabba7dd604a9b8a16839afb8bcccd2bfe7674",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/ArchiveXL.yaml",
+      "sha256": "89c39c2d5dea5f591a351069d3020d19de8faeb5867d619897f93cc2ae39f942",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/ArchiveXL.archive",
+      "sha256": "8efa034dca39d563326eda65b63be87e66953b28f67145c81b2211e00d1c27d9",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/Migration.xl",
+      "sha256": "830883ea3d5e50746ea698429dc51f5971e079a588c48e8fe097e90c6c25ca68",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PhotoModeScope.xl",
+      "sha256": "77c10d76a8ae8ca696b63e3930fd1d4b3b14fa410ce90e4f95ab665826a82264",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerBaseScope.xl",
+      "sha256": "fac81f0618a074b06472b5574aeefa4dde16bc935abe0416ac23121ec7a3ee2f",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBeardFix.xl",
+      "sha256": "e666e6f1a9fafd03561c4a07df8dc773fdba2414370b04fa51b97035e1ec0036",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBeardScope.xl",
+      "sha256": "e65cfcdc09ce84768fc59a0646b6f90df5cb2b07637903bb57b834159494e94e",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsFix.xl",
+      "sha256": "458fc4337ff99efe58d3bd69ab5fd0aed7a35006b8ff65bff97c948cba11c856",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsPatch.xl",
+      "sha256": "482a99c243bc49196e356615f3eb9bcc4f29458496940e600891e03f75337595",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsScope.xl",
+      "sha256": "afd084003d5bfcf147026cfc6f115d41153be7d982642372859ce19cd951d2c5",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesFix.xl",
+      "sha256": "f2fc3657f8620f81fe58049bc2dbca13534c8a8a6da299bda70914b070854c39",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesPatch.xl",
+      "sha256": "2b1e3736764b4de5aea6d55120703fcf5bc0249441851fc8dbee489df013c527",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesScope.xl",
+      "sha256": "58d06e94151cb49de1004bee265f3dbf7e189a3a15de495a01129740bc06dbd6",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairFix.xl",
+      "sha256": "9f008981d01a28e9b4ddeab85bd97cb952e99c8b11d72a805139334231d0b480",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairPatch.xl",
+      "sha256": "fd7807f3f244be977aac3d4296108619743e04ef80652da75702810e5a7377b9",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairScope.xl",
+      "sha256": "888b881d88135408cb62c80796ef607ffc18f30c56125eab23ef7abdd43df4bb",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesFix.xl",
+      "sha256": "6d2b14f747e1f99544ae9de68dcb16424ae046399a71fc810a2725891cab7e70",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesPatch.xl",
+      "sha256": "f762902023eebbb44005525ae6d290d6a28af92f784192c04dad97c373bbb79b",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesScope.xl",
+      "sha256": "c299cc8843fb8adefd471e202c53452c3f6e9087f521f27c7f9153c66928e990",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationScope.xl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/QuestBaseScope.xl",
+      "sha256": "f56ceacafdf303062913e5cff589d27098a67cdf0c874d11269da4887ae23789",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/VisualTags.xl",
+      "sha256": "8f1d9628212514a5080b3f42c068a1092942346bf20416d51472f068e5b75020",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/LICENSE",
+      "sha256": "dcd5cfc3e620a938b674b5b74a18bba24ac1d8c1353271dac8599b0620238629",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Scripts/ArchiveXL.DynamicAppearance.reds",
+      "sha256": "bdb9ad85e5d4e956932f829ff5dae6ab66dd155244c9a09f0f6177ed48b0ee56",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Scripts/ArchiveXL.Global.reds",
+      "sha256": "118d95b378439f14b954e2287d667f779d005fff40fb2972e303bc255f3535a7",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Scripts/ArchiveXL.reds",
+      "sha256": "8d933d4ba814fe8bc85a065f0c449e13b3bfe61159928a10879ffe7340443e60",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/THIRD_PARTY_LICENSES",
+      "sha256": "ed196638202f571f23e55df2a51b160273f10235fe5ac2573920a1f234c6a2cf",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Codeware.dll",
+      "sha256": "f03bb6664b04912dd00145309071631125f50bd32e36ea31a29133730252bfe8",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Data/KnownHashes.txt",
+      "sha256": "392e48a8b26154f8d34aa3c1268506d84a2b0bcd3db1b374dfb9c212383a1c20",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/LICENSE",
+      "sha256": "dcd5cfc3e620a938b674b5b74a18bba24ac1d8c1353271dac8599b0620238629",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.Global.reds",
+      "sha256": "0dc8604a5503062bfae5fcf724cbfba87752ace42ab55b32f5387808e7ada6be",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.Localization.reds",
+      "sha256": "c97655f1f5bd245cf92bd1f56a47a4edbb242c25d13a982ddc4e911f2c737823",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.reds",
+      "sha256": "498f73e3baf6090f612681d4cb9ef3c8b8312e42899200992a6f786d05ccb5bb",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.UI.reds",
+      "sha256": "897b6cb61f39ff936d34b425f10d8b250fa55ba6bc385d8acd411293c55b7f45",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.UI.TextInput.reds",
+      "sha256": "1ba165221fc4e2e12466b1a34141e8d1856b50a305918397b57907846bc8c346",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/THIRD_PARTY_LICENSES",
+      "sha256": "56e48489d42ce6ebbc4eba4228ebfb422d82d57c79d8fec84763c3889026020e",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Data/ExtraFlats.dat",
+      "sha256": "7143fe962beb17c84851f6cb64e29fdc52323a41925465005a8bab22bff8a198",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Data/InheritanceMap.dat",
+      "sha256": "dfc376014bfb3accc72e757f35bd3c78ed2052d8b876fcbd730127746f114c18",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/LICENSE",
+      "sha256": "dcd5cfc3e620a938b674b5b74a18bba24ac1d8c1353271dac8599b0620238629",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Scripts/TweakXL.Global.reds",
+      "sha256": "0d91d4c690fd3d6f72863e0caea746964ed8023a8d62d10311de3cf6e927fc47",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Scripts/TweakXL.reds",
+      "sha256": "d3366f0bbe95373164ef1382e8567ca5bc108455440cc645c792ba3e6215b266",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/THIRD_PARTY_LICENSES",
+      "sha256": "0b7ec160e8f8882c384023d879a3f76f5b197f22c496473bfba96d09e9b0a3e3",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/TweakXL.dll",
+      "sha256": "2765cc55833945422b333fd2db1ee67078b70558edef0f9bd453e00d55614951",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/RED4ext.dll",
+      "sha256": "988f26cc714e795c5f4dbe93c381c8bf748551f4fd022d529a0d56e863d65d38",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/THIRD_PARTY_LICENSES.txt",
+      "sha256": "b49e3d32f961c21e0b15f4c9b11da9455d7c9905a457b1dfa88504f6592220ff",
+      "shared": true,
+      "preserveExisting": false
+    }
+  ]
+}

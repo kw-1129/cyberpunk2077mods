@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bindings>
+  <context name="Exploration" append="true">
+    <action name="ProjectCapricornCall" map="ProjectCapricornCallMapping" />
+    <action name="ProjectCapricornMenuUp" map="ProjectCapricornMenuUpMapping" />
+    <action name="ProjectCapricornMenuDown" map="ProjectCapricornMenuDownMapping" />
+    <action name="ProjectCapricornMenuConfirm" map="DialogConfirm" />
+    <action name="ProjectCapricornMenuCancel" map="ProjectCapricornMenuCancelMapping" />
+  </context>
+  <!-- A real physical placeholder lets native XML parse before overrides.
+       Mod Settings defaults this to IK_None; the handler also refuses unassigned input. -->
+  <mapping name="ProjectCapricornCallMapping" type="Button">
+    <button id="IK_F10" overridableUI="ProjectCapricornCallKey" />
+  </mapping>
+  <mapping name="ProjectCapricornMenuUpMapping" type="Button">
+    <button id="IK_Up" /><button id="IK_MouseWheelUp" /><button id="IK_Pad_DigitUp" />
+  </mapping>
+  <mapping name="ProjectCapricornMenuDownMapping" type="Button">
+    <button id="IK_Down" /><button id="IK_MouseWheelDown" /><button id="IK_Pad_DigitDown" />
+  </mapping>
+  <mapping name="ProjectCapricornMenuCancelMapping" type="Button">
+    <button id="IK_Backspace" /><button id="IK_Escape" /><button id="IK_Pad_B_CIRCLE" />
+  </mapping>
+  <hold action="ProjectCapricornCall" timeout="0.6" />
+</bindings>

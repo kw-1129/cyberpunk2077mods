@@ -1,0 +1,17 @@
+# Garage entry is a dispatch token. QuickSlotsManager routes this entry to
+# Character.HG_Chimera; the proxy itself is never spawned by this mod.
+Vehicle.HG_ChimeraDispatch:
+  $base: Vehicle.v_militech_basilisk
+  displayName: HG-Chimera
+
+Vehicle.vehicle_list.list:
+  - !append-once Vehicle.HG_ChimeraDispatch
+
+Character.HG_Chimera:
+  $base: Character.main_boss_chimera
+  entityTemplatePath: ep1\mechanical\mech\mch_004__militech_chimera__basic_01.ent
+  appearanceName: mch_004__militech_chimera__basic_01_default
+  displayName: HG-Chimera
+  baseAttitudeGroup: player
+  statModifierGroups:
+    - !remove Character.ForceDefeatedModifierGroup

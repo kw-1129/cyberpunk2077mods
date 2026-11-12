@@ -1,0 +1,187 @@
+{
+  "Recall": {
+    "en-us": "Recall",
+    "zh-cn": "召回",
+    "zh-tw": "召回"
+  },
+  "Register garage": {
+    "en-us": "Register garage",
+    "zh-cn": "加入车库",
+    "zh-tw": "加入車庫"
+  },
+  "Remove entries": {
+    "en-us": "Remove entries",
+    "zh-cn": "移除车库条目",
+    "zh-tw": "移除車庫條目"
+  },
+  "Load a save first.": {
+    "en-us": "Load a save first.",
+    "zh-cn": "先加载存档。",
+    "zh-tw": "先加載存檔。"
+  },
+  "Unavailable": {
+    "en-us": "Unavailable",
+    "zh-cn": "暂不可用",
+    "zh-tw": "暫不可用"
+  },
+  "Scripts unavailable: check r6/logs/redscript_rCURRENT.log": {
+    "en-us": "Scripts unavailable: check r6/logs/redscript_rCURRENT.log",
+    "zh-cn": "脚本未就绪，请查看 r6/logs/redscript_rCURRENT.log。",
+    "zh-tw": "腳本未就緒，請查看 r6/logs/redscript_rCURRENT.log。"
+  },
+  "Error: ": {
+    "en-us": "Error: ",
+    "zh-cn": "错误：",
+    "zh-tw": "錯誤："
+  },
+  "魔蜥 / BASILISK · 私人仓库": {
+    "en-us": "BASILISK | Private Hangar",
+    "zh-cn": "魔蜥 / BASILISK · 私人仓库",
+    "zh-tw": "魔蜥 / BASILISK · 私人倉庫"
+  },
+  "在室外开阔地部署。魔蜥会加入普通呼叫载具列表。": {
+    "en-us": "Deploy on open outdoor ground. Basilisk appears in the normal vehicle call list.",
+    "zh-cn": "在室外开阔地部署。魔蜥会加入普通呼叫载具列表。",
+    "zh-tw": "在室外開闊地部署。魔蜥會加入普通呼叫載具列表。"
+  },
+  "部署魔蜥 / Deploy": {
+    "en-us": "Deploy Basilisk",
+    "zh-cn": "部署魔蜥 / Deploy",
+    "zh-tw": "部署魔蜥 / Deploy"
+  },
+  "进入驾驶位 / Board": {
+    "en-us": "Board Basilisk",
+    "zh-cn": "进入驾驶位 / Board",
+    "zh-tw": "進入駕駛位 / Board"
+  },
+  "召回 / Recall": {
+    "en-us": "Recall",
+    "zh-cn": "召回 / Recall",
+    "zh-tw": "召回 / Recall"
+  },
+  "驾驶、瞄准及武器沿用游戏魔蜥键位。靠近后可正常进入，也可点“进入驾驶位”。召回前先下车。": {
+    "en-us": "Use the standard Basilisk driving, aiming and weapon controls. Enter normally or use Board. Exit before recall.",
+    "zh-cn": "驾驶、瞄准及武器沿用游戏魔蜥键位。靠近后可正常进入，也可点“进入驾驶位”。召回前先下车。",
+    "zh-tw": "駕駛、瞄準及武器沿用游戲魔蜥鍵位。靠近后可正常進入，也可點“進入駕駛位”。召回前先下車。"
+  },
+  "加入车库": {
+    "en-us": "Register garage",
+    "zh-cn": "加入车库",
+    "zh-tw": "加入車庫"
+  },
+  "移除车库条目": {
+    "en-us": "Remove garage entry",
+    "zh-cn": "移除车库条目",
+    "zh-tw": "移除車庫條目"
+  },
+  "先加载存档。": {
+    "en-us": "Load a save first.",
+    "zh-cn": "先加载存档。",
+    "zh-tw": "先加載存檔。"
+  },
+  "脚本未就绪，请查看 redscript 日志。": {
+    "en-us": "Scripts unavailable: check the redscript log.",
+    "zh-cn": "脚本未就绪，请查看 redscript 日志。",
+    "zh-tw": "腳本未就緒，請查看 redscript 日志。"
+  },
+  "Basilisk: deploy": {
+    "en-us": "Basilisk: deploy",
+    "zh-cn": "魔蜥：部署",
+    "zh-tw": "魔蜥：部署"
+  },
+  "Basilisk: board driver seat": {
+    "en-us": "Basilisk: board driver seat",
+    "zh-cn": "魔蜥：进入驾驶位",
+    "zh-tw": "魔蜥：進入駕駛位"
+  },
+  "Basilisk: recall": {
+    "en-us": "Basilisk: recall",
+    "zh-cn": "魔蜥：召回",
+    "zh-tw": "魔蜥：召回"
+  },
+  "Basilisk registered in the vehicle call list.": {
+    "en-us": "Basilisk registered in the vehicle call list.",
+    "zh-cn": "魔蜥已加入载具呼叫列表。",
+    "zh-tw": "魔蜥已加入載具呼叫列表。"
+  },
+  "Garage entry removed.": {
+    "en-us": "Garage entry removed.",
+    "zh-cn": "已移除车库条目。",
+    "zh-tw": "已移除車庫條目。"
+  },
+  "Exit the Basilisk before recall.": {
+    "en-us": "Exit the Basilisk before recall.",
+    "zh-cn": "召回前请先下车。",
+    "zh-tw": "召回前請先下車。"
+  },
+  "Basilisk recalled.": {
+    "en-us": "Basilisk recalled.",
+    "zh-cn": "魔蜥已召回。",
+    "zh-tw": "魔蜥已召回。"
+  },
+  "Load a save and return to gameplay first.": {
+    "en-us": "Load a save and return to gameplay first.",
+    "zh-cn": "请先加载存档并回到游戏。",
+    "zh-tw": "請先加載存檔并回到游戲。"
+  },
+  "Deployment in progress.": {
+    "en-us": "Deployment in progress.",
+    "zh-cn": "正在部署。",
+    "zh-tw": "正在部署。"
+  },
+  "Exit the current vehicle first.": {
+    "en-us": "Exit the current vehicle first.",
+    "zh-cn": "请先离开当前载具。",
+    "zh-tw": "請先離開當前載具。"
+  },
+  "Finish the current scene first.": {
+    "en-us": "Finish the current scene first.",
+    "zh-cn": "请先完成当前剧情。",
+    "zh-tw": "請先完成當前劇情。"
+  },
+  "Deploy on open outdoor ground.": {
+    "en-us": "Deploy on open outdoor ground.",
+    "zh-cn": "请在室外开阔地部署。",
+    "zh-tw": "請在室外開闊地部署。"
+  },
+  "No ground ahead. Face a clear level surface.": {
+    "en-us": "No ground ahead. Face a clear level surface.",
+    "zh-cn": "前方没有可用地面，请面向开阔平地。",
+    "zh-tw": "前方沒有可用地面，請面向開闊平地。"
+  },
+  "Deploying Basilisk...": {
+    "en-us": "Deploying Basilisk...",
+    "zh-cn": "正在部署魔蜥…",
+    "zh-tw": "正在部署魔蜥…"
+  },
+  "Spawn request failed.": {
+    "en-us": "Spawn request failed.",
+    "zh-cn": "生成请求失败。",
+    "zh-tw": "生成請求失敗。"
+  },
+  "Deploy a working Basilisk first.": {
+    "en-us": "Deploy a working Basilisk first.",
+    "zh-cn": "请先部署可驾驶的魔蜥。",
+    "zh-tw": "請先部署可駕駛的魔蜥。"
+  },
+  "Move within 35 m of the Basilisk.": {
+    "en-us": "Move within 35 m of the Basilisk.",
+    "zh-cn": "请靠近至魔蜥 35 米以内。",
+    "zh-tw": "請靠近至魔蜥 35 米以內。"
+  },
+  "Boarding the driver seat.": {
+    "en-us": "Boarding the driver seat.",
+    "zh-cn": "正在进入驾驶位。",
+    "zh-tw": "正在進入駕駛位。"
+  },
+  "Basilisk ready. Enter normally or use Board Basilisk.": {
+    "en-us": "Basilisk ready. Enter normally or use Board Basilisk.",
+    "zh-cn": "魔蜥已就绪，可正常上车或点击进入驾驶位。",
+    "zh-tw": "魔蜥已就緒，可正常上車或點擊進入駕駛位。"
+  },
+  "Spawn timed out. Try another open area.": {
+    "en-us": "Spawn timed out. Try another open area.",
+    "zh-cn": "生成超时，请换一处开阔地重试。",
+    "zh-tw": "生成超時，請換一處開闊地重試。"
+  }
+}

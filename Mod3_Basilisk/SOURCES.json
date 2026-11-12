@@ -1,0 +1,44 @@
+[
+  {
+    "name": "cet",
+    "repository": "maximegmd/CyberEngineTweaks",
+    "version": "v1.38.1",
+    "url": "https://github.com/maximegmd/CyberEngineTweaks/releases/download/v1.38.1/cet_1_38_1.zip",
+    "sha256": "2e52be4ed431fad787e64ecbf75db346b4224577d2b89894912bc3f159020e73"
+  },
+  {
+    "name": "red4ext",
+    "repository": "WopsS/RED4ext",
+    "version": "v1.31.1",
+    "url": "https://github.com/wopss/RED4ext/releases/download/v1.31.1/red4ext-1.31.1.zip",
+    "sha256": "ce10bda503fd48c8674ef3e517d635636a262c089055f189caabeb300eef7932"
+  },
+  {
+    "name": "redscript-2.5",
+    "repository": "jac3km4/redscript",
+    "version": "v0.5.32",
+    "url": "https://github.com/jac3km4/redscript/releases/download/v0.5.32/redscript-v0.5.32-windows.zip",
+    "sha256": "882c57a80b07e453bc8a34cd8430f460aceed789581de8743638e19dcfb7936f"
+  },
+  {
+    "name": "codeware",
+    "repository": "psiberx/cp2077-codeware",
+    "version": "v1.21.2",
+    "url": "https://github.com/psiberx/cp2077-codeware/releases/download/v1.21.2/Codeware-1.21.2.zip",
+    "sha256": "269b65b8b97d26ea85d4516f5eb34c01a19dc85e299be57fb4f764e16c164dd2"
+  },
+  {
+    "name": "tweakxl",
+    "repository": "psiberx/cp2077-tweak-xl",
+    "version": "v1.12.0",
+    "url": "https://github.com/psiberx/cp2077-tweak-xl/releases/download/v1.12.0/TweakXL-1.12.0.zip",
+    "sha256": "a7c39b769e6c51d9f27412a101fb87e6a1fb8452f0e37ee0d1d1f3f44e656fa8"
+  },
+  {
+    "name": "archivexl",
+    "repository": "psiberx/cp2077-archive-xl",
+    "version": "v1.28.6",
+    "url": "https://github.com/psiberx/cp2077-archive-xl/releases/download/v1.28.6/ArchiveXL-1.28.6.zip",
+    "sha256": "25d0493a1b3e8ec4c26b7144a4d8f1a1def4d6dc840fff94b4c91c908583da09"
+  }
+]

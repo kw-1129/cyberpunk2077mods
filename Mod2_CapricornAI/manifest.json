@@ -1,0 +1,1176 @@
+{
+  "name": "Mod2_CapricornAI",
+  "game_version": "2.5",
+  "files": [
+    {
+      "path": "archive/pc/mod/capricorn.archive",
+      "sha256": "c6c3eac105aefd28aadc0fe96cf760269b0dc333de7daea98a06758b9d8a4c2c",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "archive/pc/mod/capricorn.archive.xl",
+      "sha256": "47a29b472300bf09201e130e94584c00e3b1958f543f95c0529906ccb21ed509",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/global.ini",
+      "sha256": "c02b09b2cf2cfab32527ee1a88ee311500c1c2f4c95d20fe0898c9e0407a4d86",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/LICENSE",
+      "sha256": "98c3b6d063066ad2dddc1a716d6ce5df8ed63497b0084b248d8d05516c57dbc7",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/config.json",
+      "sha256": "61ebff2797a28846268c244cd7b88befe5efdb2a9fd8d508a04983c7b4793007",
+      "shared": true,
+      "preserveExisting": true
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/materialdesignicons.ttf",
+      "sha256": "bd725a7a38939e5b59904e1b7a7265919ecec256166ece69d515c21005165907",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSans-Regular.ttf",
+      "sha256": "4c8d67001d3c2977e5d6bf0a4f8add80cd564bd1df60b7569fd23751e7dda02a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansJP-Regular.otf",
+      "sha256": "34b41de3f65166440ea2ce40121eb1c9b9c2bb92d188bd32a8e6091cd92316db",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansKR-Regular.otf",
+      "sha256": "29445948e432137e0de104dec389e956d72633aa0e4cb04ca572bb8e378e3d35",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansMono-Regular.ttf",
+      "sha256": "97b31969bfe7ebf894c12afdf6a5dcb6e87e64114697782802fe933e693eacd8",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansSC-Regular.otf",
+      "sha256": "a2b93e6c2db05d6bbbf6f27d413ec73269735b7b679019c8a5aa9670ff0ffbf2",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansTC-Regular.otf",
+      "sha256": "8d9cd5f210c0204d2a1ddaeaf82db1071e242126f4e18b9c350d8b1680bae400",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/fonts/NotoSansThai-Regular.ttf",
+      "sha256": "f73be376b0e1704da118312e202be49e8ac04a6b2e19b588cdfc2707c7f3e25d",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/Capricorn/init.lua",
+      "sha256": "fe117a3edba669fa4a38763376b14f4ea961179c0c48d73637c729655b2835b5",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/bridge/.keep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/init.lua",
+      "sha256": "8009b9e435d88931c09d48b69f99dbd1dececf78abff46012fae86f602b1e5e5",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/locale.json",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "d4e39f8c27f0a271f93090f6c773d6cdcd4289a71e0198264935ba65799317f0"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/locale.lua",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "694af3db131717309db9f15ffe8f240ca61ff60608bf7a880db85c1abfa44772"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/presets.lua",
+      "sha256": "7579efa90770078b4620ffe7ae8cc726a9b73eb6b2b1301c27c2df40008d85ad",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/presets_en.lua",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "c2c633158304b44245ec25e6728df4bf64a75567ec9d0257ce3e13121ea26dd6"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/presets_tw.lua",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "41cbfbbe899e96c1870fc72afba7df1286fc122d657bcc6810907c966f6bd8f6"
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/mods/CapricornRelic/settings.json",
+      "sha256": "93bd7f9e744c57be1e3fc9323c8686d550bd6d77095779af235b0fe10a2e674a",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/IconGlyphs/icons.lua",
+      "sha256": "f52aa193fe7fc562c82facb18261834bdb30e61cfca0feb2effba758f8a2cf80",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/json/json.lua",
+      "sha256": "23031288e528880354d3d4651a9dc299b4c85e28889d9f5ae1dcca76b3cdc8b1",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/json/LICENSE",
+      "sha256": "f2c7e5ea921f2d0514e229e88ac39e51b3db50698b270b3a9290b610b7015fdc",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/scripts/json/README.md",
+      "sha256": "e71e8c5fa757699655d0d48843ec98b8a777c78819c1eec623f61027ac4bc5d0",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/ThirdParty_LICENSES",
+      "sha256": "83b9af1ffcc13f5822ae9ba561969bffcb8967a05edff6f41bf497e6c232fff0",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/tweakdb/tweakdbstr.kark",
+      "sha256": "ea74ca46375c414514d5b8577702c51c1ba55db06d24aaf73901541d212f5ebb",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks/tweakdb/usedhashes.kark",
+      "sha256": "e1f2bf54f5d24660a4a8ecff5694b39d2ca9db4a4a8ca3c3a8900dc71477a9e2",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/plugins/cyber_engine_tweaks.asi",
+      "sha256": "f0acdad154bd0033583e0f6e675ea18b4bdb60cda28133d792a4674e6d7f228a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/version.dll",
+      "sha256": "67565dd7f899c0e4ee3903b1cc8078ff20ca80b8100497c6ac813392e431d443",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "bin/x64/winmm.dll",
+      "sha256": "531efcb3d50dbbd03abd385963cf6cea97a24cdbed4a45cbb1997733b8feaf47",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "engine/config/base/scripts.ini",
+      "sha256": "ea8281682d4130f872e1703b25aa989a823f136fa1d886077af24aedb08b0d4c",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "engine/config/platform/pc/input_loader.ini",
+      "sha256": "5da4c3350381e5cc07b74ee3eafad7e705b64c11efd1df0769d95f6a7d442acd",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "engine/tools/scc.exe",
+      "sha256": "f7bf0a5a0986aec61d360ae79a3e957b8e21c0781309193a2a056c7bde0e90bc",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "engine/tools/scc_lib.dll",
+      "sha256": "114851d192ec815119bbfa2272da572bf026fea8e5c0a910a4c8ad84b877dc09",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_0_0.mp3",
+      "sha256": "f1b5974a0375574de31334a4718d8d62a471d18560d21a881cec05fede1b6dce",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_0_1.mp3",
+      "sha256": "736b04953208fd7eb24ff63cf275c98a783b777c8050dfb743ca65687742a618",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_0_2.mp3",
+      "sha256": "861c844ffcd3d25f45e3adcb7cff0af9044dd0ba82e721a96885cd3db952a6f5",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_0_3.mp3",
+      "sha256": "62465a4a03c25f463ea616dabc49a08df139169f978809b803c9e7ea8ab29402",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_0_4.mp3",
+      "sha256": "4b6b6985532ee127cb00fc80ebfb51bed784f439a979b3fa53f266bc24cafdc0",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_1_0.mp3",
+      "sha256": "b8c876ffe7e7347984e9da00d1ccbd0bbe533c6d78f1eab592db587a0104af1b",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_1_1.mp3",
+      "sha256": "5695700c22b1d9f33c146d51b6a5ac31a2533fd839e4e7e043a4bb2df18e7030",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_1_2.mp3",
+      "sha256": "46c0da6e9dfc431c3a6f178ecfba47770c5988416e79bb69c574310fcf67619b",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_1_3.mp3",
+      "sha256": "bdeb01651ece264b204e2486666bd8ef661a6a29bd2da372af8ca46e176c3d7a",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_2_0.mp3",
+      "sha256": "cc6e87ac9051e8981c81423625e75b2ada314180d6514d5780f1e091b76a08c2",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_2_1.mp3",
+      "sha256": "821afb011b71ddc484715f014ba4570e27290fbf6bf036498c1296b56f5ce467",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_2_2.mp3",
+      "sha256": "3274283df76ad2a2f3ed60cb9e867a137357c0a9c0853c8babb6f8928ac9427c",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_2_3.mp3",
+      "sha256": "37066721b126decc3184d8cb8db88fc2d6e29136e9d897cfce820a8c7dd3bd3f",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_3_0.mp3",
+      "sha256": "c0854c20198e0a8158a29c48d64459e23d081b383d459259fd4c4b7fa47f8aff",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_3_1.mp3",
+      "sha256": "df9eba2a335e12f17330fc49d77c0d0ce5dfe6ba97343f5caf56de0ae3132b78",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_3_2.mp3",
+      "sha256": "0f76ad419be319416e371a1331c53f62fefb7e240c4bb00db82e9ac0d03935be",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_3_3.mp3",
+      "sha256": "d8e798a960bf620b331324768a036155e9b94ad7e24f6c4d15fd022a1122bd74",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_4_0.mp3",
+      "sha256": "0c47a69545f347c098d0594bfc33bbb49d0ca9c7e26413918b6aa6bec6bc4e12",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_4_1.mp3",
+      "sha256": "3019447d2817f368acbc92bc46ac23bacb7053439883f05eb1af5cfeff7129ad",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_4_2.mp3",
+      "sha256": "51875719436d04bf9298f4cc5ca2cdfabd75cc7c5cb4ab8f4821f03aa20e4bc6",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_4_3.mp3",
+      "sha256": "e2210bb771d877c78368d746cdbdbe388657a39757935d04563c89ac99f2c13e",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_5_0.mp3",
+      "sha256": "f44042abdab8d6e1409a182352145e73c5d781cbc4e979b50dfd64fbd19ad027",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_5_1.mp3",
+      "sha256": "8c51a22a57e0042a43aa9a4e2e6976cf7528b6047c88f81514f124eecf98d2a5",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_5_2.mp3",
+      "sha256": "92e376f52abdf1f24da179f51f74cde46beed9ebf38fd439683d04f3f4c510c4",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_5_3.mp3",
+      "sha256": "3dd45fcc3a42e4eed44d8c4837d8cc7616f3c7e14bbc0f32fa60b0683df4d9a4",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_fallback.mp3",
+      "sha256": "05065f951bb9bcc8346e7303de4df9c0c4ef25a81b1347e5dfa87c02b78d2845",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/call_ripper_failed.mp3",
+      "sha256": "7a6c7f4886915e6bf21ef233e02738cf1409cbea340d6e3031a93a07c6cae129",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_0_0.mp3",
+      "sha256": "b1f9c8c879153bfcd3c73f45003bf2337ca22d16369f95d2118016efae85089c",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_0_1.mp3",
+      "sha256": "c0deb165394179f3aebd654145550350abdf105a759044379b953513e841695b",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_0_2.mp3",
+      "sha256": "acd5d25a63e35a2165b5dc95687207571246337535e70fece0ead61880a1e018",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_0_3.mp3",
+      "sha256": "81648c5ed7e44b51f38968a535d48a20d08530272aab62f6d02cf00a9fbc57d3",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_0_4.mp3",
+      "sha256": "0c83e1d31994b0f9bd006d31ef2f5e2a8f39c29487f3447e31fbb6e0924658da",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_1_0.mp3",
+      "sha256": "1904320c62d8c2c3e81001277cbffbba4294ae351ebf0523bd668f4ef64d215f",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_1_1.mp3",
+      "sha256": "8003049457374ccfd2811335b837199f80894bdf486eefae6a2f77057719a6e5",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_1_2.mp3",
+      "sha256": "65c676d4807bba75f503bc6c6c31e74af59cb416ad06570fb46cb0a09cfe2d96",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_1_3.mp3",
+      "sha256": "66a646dcdca75aae3ab89c39e1ec9e1df1c3acfa1cce99551c969ad272bc61e6",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_1_4.mp3",
+      "sha256": "4ca0838443de726b4a4f9cdf8cd28628731eaaff1c18ad2f140a87f362c34dfb",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_2_0.mp3",
+      "sha256": "248908100a8161f626e1ad234c6354695260ab4fa53f879f02c437baab285933",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_2_1.mp3",
+      "sha256": "0d01bcb6600ef95c581a41e92612c463c481ab7833c7fc0e74441941451fa4e9",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_2_2.mp3",
+      "sha256": "79704944f3e4ce38e732f586f718a4839046e6e3ed3e9b4729c8980b024633a6",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_2_3.mp3",
+      "sha256": "c6172b374a69950d6c150c02416d391478d47b43b5523761baeb4e2a1379ac2a",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_2_4.mp3",
+      "sha256": "9f1e5e8ce020a8811f4843caddbe28e5a90efc660b122d79ad5f24610ccf4a42",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_3_0.mp3",
+      "sha256": "ccb94f0488b0e0d140df4b648bd83edf305bc2039ad527951960ccff2430b03c",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_3_1.mp3",
+      "sha256": "138c15cebff6ad55a2b43fb1b9687e22489f16aa3241c9a21f4758ca7ac3935a",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_3_2.mp3",
+      "sha256": "0e0a45deaecca0e0e29134e665856228fd24651dcf3b539699a06a7186a6d6a9",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_3_3.mp3",
+      "sha256": "a7fa9d277f59369272047cd8bb457a0b15a20f1280a1df968071b6db50f7752f",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_3_4.mp3",
+      "sha256": "f103deae4330a204c3d1e50dd294d719ee84f8420c08960b7d7a67a9aab3bbcd",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_4_0.mp3",
+      "sha256": "7de6fa5f59c91ae6dfaafaefa0d8ce8e4d860a14812e193a163035a54bfd3752",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_4_1.mp3",
+      "sha256": "725b9851b887ba1200f507562efe71b7530361753bb7b15f0bddbef52fc14e10",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_4_2.mp3",
+      "sha256": "eddca0b399a3f5a37c1dd15abc5e55936758292a49e784dc23c47ffc7ef258f5",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_4_3.mp3",
+      "sha256": "96f62081107c76b18f3cb4b7724139820643dec06438abc00a02c347f5dde5be",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_4_4.mp3",
+      "sha256": "ab573f56c35d82c23fa6a6c8c796b6dcdbc7164336dd6d5b437c32dad64186a5",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_5_0.mp3",
+      "sha256": "04e347af4f4d4518d83b2dae7a54af4feaa02e3bd8cf80e16c3ae0c179ec94d7",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_5_1.mp3",
+      "sha256": "6071058042733dd7927bd36115126516ab1d7647d06129e47b87ad061ceb87ec",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_5_2.mp3",
+      "sha256": "1c44cab6adb0b5381533d0319d9b537a6396a432c7e2fe1da02959859b27d24a",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_5_3.mp3",
+      "sha256": "718cf0fcf736d158e132da274ad49a89ecbbec086d3d826d762b6a1382db6662",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_5_4.mp3",
+      "sha256": "73f2abc318254fe6a79ccf1c4a2c87df701067d22302dec16542f399c69d8e1f",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_6_0.mp3",
+      "sha256": "bc06936f14f0fcd703ce6c78aa7b39a62fd51d972bfe414fb0cdcb16932b02f4",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_6_1.mp3",
+      "sha256": "563d1288747cbe4fb2dbc048d6a6f5cb0f7f04d1155a4cd3328d5d2eb376cf6e",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_6_2.mp3",
+      "sha256": "debd7b8eee1b2569dca4072c6d8b903facb6653bfa0d9c8f904292b08cc5deff",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_6_3.mp3",
+      "sha256": "21252f883df58b09709d4744572768fa065055b4d7a80426b8783827a724eb77",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_6_4.mp3",
+      "sha256": "1b1ef14ce42cf6ed06203489ac236ea5930cd14d1195698dc83fcc36514d598b",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_7_0.mp3",
+      "sha256": "8cd5e952c06daa7f29e161bd71055c58d32b041bfd99bcaf5541231209edab2d",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_7_1.mp3",
+      "sha256": "8fdccc4da224814f6668b9302fda862511310ddcae43a9ba69d6160ee3066937",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_7_2.mp3",
+      "sha256": "6497418411dd6c7f162da43e983277b0747e4fb98ada668617704599fc4c1c07",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_7_3.mp3",
+      "sha256": "c8d3bf5d6bfb4e6daffb994f34032c000691a322f6ae6d6f9ce3cdc4d2be31c0",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices/reactive_7_4.mp3",
+      "sha256": "1f319e4c8b01a5cc29a54bbc53804b3d2defc7f717a91ca5022fb0f4afd0f979",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/audioware/ProjectCapricorn/voices.yaml",
+      "sha256": "a8adbecc9587178e2ac72b2de65c57de943422f7be632a479fa95b85f849b0d1",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/cache/inputContexts.xml",
+      "sha256": "ec2186f01bc6637d613bffb66e0258482b51d39e42090cb603d3716990923fcf",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/cache/inputUserMappings.xml",
+      "sha256": "6bd75c50e34484c1022d879ec3eea90eb9655459fd14256a98ffbbaebb5f4782",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/config/cybercmd/scc.toml",
+      "sha256": "05802a334d72e87194d49765b7b852c2a983f8849851abcf3fd1366f64d4a934",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/config/redsUserHints/ArchiveXL.toml",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/input/ProjectCapricorn.xml",
+      "sha256": "e335db330ca06f4d160edc673d3e1ead709835d284ff4951a84b063aa61fbc07",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Callback.reds",
+      "sha256": "35cd46b079acc078a11e882dbe1fe7a59fab30c745847ed6cf6ca55594e401f9",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Codeware.reds",
+      "sha256": "d596e0e944948c9e225d4f5f7446c3b72f53b5b4927bf0c1e60079c121b5d71f",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Config.reds",
+      "sha256": "364a7e721c650c0be6ba2bf806a1cddf3c08470d51f04234ddd548db2edca5ab",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Event/Callback.reds",
+      "sha256": "135e461dcf7abd880d6077cb769d9fd258abc3bb50f3cba8e2ed64e92358cef3",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Event/Dynamic.reds",
+      "sha256": "f1ea8d1a929cc04148bdf3960ad88853981db2f5d43fc29fafda83cc66a0a93b",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Ext.reds",
+      "sha256": "fb7c049af06a6d95e772aae45526cd9edd6871c3961a479792cb7755cec2df9c",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Hooks.reds",
+      "sha256": "749713f1abc5be4656d835224f93e39bd023ab08d4163cdc41e73514626d6c05",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Listener.reds",
+      "sha256": "03f914fa44199c8dbe34f9d679f999c0167419dfb34928ee4aaa4b26949810c7",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Manager.reds",
+      "sha256": "5082003d06e570c5eb512826d455211b9b089f9d2e52c3ef9fd27daec65c3f90",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Natives.reds",
+      "sha256": "3cb00d99b59e060eecd19f7807695c6024ac6f9029d372230d27d5ff5a36edc0",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/PreGame.reds",
+      "sha256": "a9bb7170d0c86eaebf81d48eefdf290e820b78712957b6abf165098a0117ef3a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Preset.reds",
+      "sha256": "28c8ac2189cadf2e3f9a70d8bc5301e43cd44500370f00f43b1e6b6b7699d34a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Service.reds",
+      "sha256": "81deba2666122b1c721504dba0f4aeed315a66e67f21e3b22450e51b11cbcb9c",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Settings.reds",
+      "sha256": "4e030b858947d47d76585db9caf546e950bcfea5c819c1c8756b60e6063a492c",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/System.reds",
+      "sha256": "332ace9d477598f6363cbc3e9d736ea0f12917802564c0748b3495087b7c300c",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Trigger.reds",
+      "sha256": "134fd91d992a1d2803ab22854c418f5b9c06e2d56dacc57645b13a18d59f9ef6",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Tween.reds",
+      "sha256": "1d85a84884d72b1e6412e35a65ccf5444f60b585e643fb7a51449e4b93aead43",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Audioware/Utils.reds",
+      "sha256": "75a088e0fd80e84b02adbdd5cebce187765830dabeb5d33c776bbac067d3b710",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Capricorn/CapricornCall.reds",
+      "sha256": "fdc7a1b6604afc80bceb06b3cc48b36dd1f484cc00babe110a244d1266f04982",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Capricorn/CapricornCallVoiceDurations.reds",
+      "sha256": "8b9984b9298c8291f0ce39830b35354e8f00e9d49fb363811e4a51104373ddbf",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Capricorn/CapricornDialogue.reds",
+      "sha256": "d0efd22f04a6cb99d47126f89672d90c34c315e3447ae3d6ed56484bb58dce40",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/Capricorn/CapricornReactiveVoiceDurations.reds",
+      "sha256": "73de1ab2a74c20ab3d67330f7b283faf1b5446b9899cf47affc340282a888c44",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/CapricornRelic/Chat.reds",
+      "sha256": "1902d160e2b98904c166fc85f3b22f4afe9fa5cd12070017c13637c3480c7053",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/CapricornRelic/Relic.reds",
+      "sha256": "d6e0bac81cbad7087288ba237f07699d3b016ea7c44059e30c5e65a706dd38f8",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/scripts/CapricornRelic/Text.reds",
+      "shared": false,
+      "preserveExisting": false,
+      "sha256": "f8545ca52f44847d02f6eccfeeeed42b498bc16d9b7edd8126989046301b1049"
+    },
+    {
+      "path": "r6/tweaks/Capricorn.yaml",
+      "sha256": "54e674d6d42aae60213383b5cf72e4787b6484f12e67a970098a92215c795bc3",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "r6/tweaks/ZZ_CapricornRelic.yaml",
+      "sha256": "7be233d1bf66cd86aec9ae32d6bf8b95d2fb798f0a001e8ffc5b7602d1d9b6eb",
+      "shared": false,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/LICENSE.txt",
+      "sha256": "a0b08b28ae3931a5a41a1788aac6c7a391513bfc3599272021ea5b2c1af2f6f6",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/ArchiveXL.dll",
+      "sha256": "97692f23b03fdb87354a3e1a4aaabba7dd604a9b8a16839afb8bcccd2bfe7674",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/ArchiveXL.yaml",
+      "sha256": "89c39c2d5dea5f591a351069d3020d19de8faeb5867d619897f93cc2ae39f942",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/ArchiveXL.archive",
+      "sha256": "8efa034dca39d563326eda65b63be87e66953b28f67145c81b2211e00d1c27d9",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/Migration.xl",
+      "sha256": "830883ea3d5e50746ea698429dc51f5971e079a588c48e8fe097e90c6c25ca68",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PhotoModeScope.xl",
+      "sha256": "77c10d76a8ae8ca696b63e3930fd1d4b3b14fa410ce90e4f95ab665826a82264",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerBaseScope.xl",
+      "sha256": "fac81f0618a074b06472b5574aeefa4dde16bc935abe0416ac23121ec7a3ee2f",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBeardFix.xl",
+      "sha256": "e666e6f1a9fafd03561c4a07df8dc773fdba2414370b04fa51b97035e1ec0036",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBeardScope.xl",
+      "sha256": "e65cfcdc09ce84768fc59a0646b6f90df5cb2b07637903bb57b834159494e94e",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsFix.xl",
+      "sha256": "458fc4337ff99efe58d3bd69ab5fd0aed7a35006b8ff65bff97c948cba11c856",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsPatch.xl",
+      "sha256": "482a99c243bc49196e356615f3eb9bcc4f29458496940e600891e03f75337595",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationBrowsScope.xl",
+      "sha256": "afd084003d5bfcf147026cfc6f115d41153be7d982642372859ce19cd951d2c5",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesFix.xl",
+      "sha256": "f2fc3657f8620f81fe58049bc2dbca13534c8a8a6da299bda70914b070854c39",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesPatch.xl",
+      "sha256": "2b1e3736764b4de5aea6d55120703fcf5bc0249441851fc8dbee489df013c527",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationEyesScope.xl",
+      "sha256": "58d06e94151cb49de1004bee265f3dbf7e189a3a15de495a01129740bc06dbd6",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairFix.xl",
+      "sha256": "9f008981d01a28e9b4ddeab85bd97cb952e99c8b11d72a805139334231d0b480",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairPatch.xl",
+      "sha256": "fd7807f3f244be977aac3d4296108619743e04ef80652da75702810e5a7377b9",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationHairScope.xl",
+      "sha256": "888b881d88135408cb62c80796ef607ffc18f30c56125eab23ef7abdd43df4bb",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesFix.xl",
+      "sha256": "6d2b14f747e1f99544ae9de68dcb16424ae046399a71fc810a2725891cab7e70",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesPatch.xl",
+      "sha256": "f762902023eebbb44005525ae6d290d6a28af92f784192c04dad97c373bbb79b",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationLashesScope.xl",
+      "sha256": "c299cc8843fb8adefd471e202c53452c3f6e9087f521f27c7f9153c66928e990",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/PlayerCustomizationScope.xl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/QuestBaseScope.xl",
+      "sha256": "f56ceacafdf303062913e5cff589d27098a67cdf0c874d11269da4887ae23789",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Bundle/VisualTags.xl",
+      "sha256": "8f1d9628212514a5080b3f42c068a1092942346bf20416d51472f068e5b75020",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/LICENSE",
+      "sha256": "dcd5cfc3e620a938b674b5b74a18bba24ac1d8c1353271dac8599b0620238629",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Scripts/ArchiveXL.DynamicAppearance.reds",
+      "sha256": "bdb9ad85e5d4e956932f829ff5dae6ab66dd155244c9a09f0f6177ed48b0ee56",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Scripts/ArchiveXL.Global.reds",
+      "sha256": "118d95b378439f14b954e2287d667f779d005fff40fb2972e303bc255f3535a7",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/Scripts/ArchiveXL.reds",
+      "sha256": "8d933d4ba814fe8bc85a065f0c449e13b3bfe61159928a10879ffe7340443e60",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/ArchiveXL/THIRD_PARTY_LICENSES",
+      "sha256": "ed196638202f571f23e55df2a51b160273f10235fe5ac2573920a1f234c6a2cf",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/audioware/audioware.dll",
+      "sha256": "36867afacae0d1d014c5d3c86ab48796660bac0cec3594fec249cddadd22db6e",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Codeware.dll",
+      "sha256": "f03bb6664b04912dd00145309071631125f50bd32e36ea31a29133730252bfe8",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Data/KnownHashes.txt",
+      "sha256": "392e48a8b26154f8d34aa3c1268506d84a2b0bcd3db1b374dfb9c212383a1c20",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/LICENSE",
+      "sha256": "dcd5cfc3e620a938b674b5b74a18bba24ac1d8c1353271dac8599b0620238629",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.Global.reds",
+      "sha256": "0dc8604a5503062bfae5fcf724cbfba87752ace42ab55b32f5387808e7ada6be",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.Localization.reds",
+      "sha256": "c97655f1f5bd245cf92bd1f56a47a4edbb242c25d13a982ddc4e911f2c737823",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.reds",
+      "sha256": "498f73e3baf6090f612681d4cb9ef3c8b8312e42899200992a6f786d05ccb5bb",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.UI.reds",
+      "sha256": "897b6cb61f39ff936d34b425f10d8b250fa55ba6bc385d8acd411293c55b7f45",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/Scripts/Codeware.UI.TextInput.reds",
+      "sha256": "1ba165221fc4e2e12466b1a34141e8d1856b50a305918397b57907846bc8c346",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/Codeware/THIRD_PARTY_LICENSES",
+      "sha256": "56e48489d42ce6ebbc4eba4228ebfb422d82d57c79d8fec84763c3889026020e",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/input_loader/input_loader.dll",
+      "sha256": "341319105e9dfedc2f6fa81d492c55acd9bf6c39b60668738d2c34f96745de2a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/input_loader/inputUserMappings.xml",
+      "sha256": "68c8d86ce1f48c06e48da44d53b4fad8b7552dcb275ea640380303b76b037e87",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/input_loader/license.md",
+      "sha256": "9284f10a3ebe703a61c9c8ab0c1c889fddf8276405d2ac33c7377537d1cde448",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/input_loader/readme.md",
+      "sha256": "d00a7467800cf8e4755940b005533ba6fa1071485c76f457a4ed86ec46438a24",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/mod_settings/license.md",
+      "sha256": "9284f10a3ebe703a61c9c8ab0c1c889fddf8276405d2ac33c7377537d1cde448",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/mod_settings/mod_settings.dll",
+      "sha256": "7c40d2f8ef9e505f32daa17fdd41da1d49b2bb196ef70a269e62f98341e9dce4",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/mod_settings/ModSettings.archive",
+      "sha256": "6741ec88617def8ec6c42b5fe54970923ac9dc3413721dd10850ac02d56d5c2a",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/mod_settings/ModSettings.archive.xl",
+      "sha256": "8742606ff6cde630ca05d2bd03e763156a7814fbf5909a534f2d0f117e0b2b87",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/mod_settings/module.reds",
+      "sha256": "dcf6bc77383b4e5f58adffeb6d2d2803e7f59d6002cf21a52980208f30de5fe7",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/mod_settings/packed.reds",
+      "sha256": "d27eb066d6bc132c729aff65687e19f566d52799dc060745c083987943feacd7",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/mod_settings/readme.md",
+      "sha256": "1499dde0a08c2ddb2e26ded2485a9787b358c8fab5225f86679e8f228d29700b",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Data/ExtraFlats.dat",
+      "sha256": "7143fe962beb17c84851f6cb64e29fdc52323a41925465005a8bab22bff8a198",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Data/InheritanceMap.dat",
+      "sha256": "dfc376014bfb3accc72e757f35bd3c78ed2052d8b876fcbd730127746f114c18",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/LICENSE",
+      "sha256": "dcd5cfc3e620a938b674b5b74a18bba24ac1d8c1353271dac8599b0620238629",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Scripts/TweakXL.Global.reds",
+      "sha256": "0d91d4c690fd3d6f72863e0caea746964ed8023a8d62d10311de3cf6e927fc47",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/Scripts/TweakXL.reds",
+      "sha256": "d3366f0bbe95373164ef1382e8567ca5bc108455440cc645c792ba3e6215b266",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/THIRD_PARTY_LICENSES",
+      "sha256": "0b7ec160e8f8882c384023d879a3f76f5b197f22c496473bfba96d09e9b0a3e3",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/plugins/TweakXL/TweakXL.dll",
+      "sha256": "2765cc55833945422b333fd2db1ee67078b70558edef0f9bd453e00d55614951",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/RED4ext.dll",
+      "sha256": "988f26cc714e795c5f4dbe93c381c8bf748551f4fd022d529a0d56e863d65d38",
+      "shared": true,
+      "preserveExisting": false
+    },
+    {
+      "path": "red4ext/THIRD_PARTY_LICENSES.txt",
+      "sha256": "b49e3d32f961c21e0b15f4c9b11da9455d7c9905a457b1dfa88504f6592220ff",
+      "shared": true,
+      "preserveExisting": false
+    }
+  ]
+}

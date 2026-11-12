@@ -1,0 +1,10 @@
+# Local API credentials, installation receipts and runtime state.
+**/AIBridge/config.json
+**/installed-files.json
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/*.sqlite3
+**/CapricornRelic/bridge/request.json
+**/CapricornRelic/bridge/response.json
+**/CapricornRelic/bridge/language.json
